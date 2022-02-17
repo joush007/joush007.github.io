@@ -1,7 +1,3 @@
-## Josh's Blog
-It's the blog for I.T.
-There will be 2 blog posts a week...
-
 # Finite State Machines
 ## Data Science
 ### 21/02/2022
