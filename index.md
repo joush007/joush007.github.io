@@ -1,4 +1,4 @@
-Josh's Blog!
+## Josh's Blog!
 # Finite State Machines
 ## Data Science
 ### 21/02/2022
