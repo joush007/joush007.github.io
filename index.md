@@ -60,6 +60,7 @@ while True:
         elif drink > len(drinks):
             print("\nInvalid drink")
             continue
+        # State: Change
         print("\nState: Giving change\n")
         print("Change: ")
 
