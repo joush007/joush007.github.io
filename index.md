@@ -1,4 +1,75 @@
 ## Josh's Blog!
+
+# Logic Circuits and Object Oriented Programming - Bug fix
+## Data Science
+### 06/03/2022
+
+This week was focused around both finishing up the Logic Circuits and Object Oriented Programming task, which is what I'll be talking about and reflecting on in this post, and the of looking into "The Internet and the W3C", which I'll be talking about in the next post. For about half of the week, I had been finalising the object oriented project and making it look pretty while bug fixing and making sure the program worked correctly. 
+
+I'm quite happy with finishing up the project, fixing all the bugs and having it look nice and work correctly, but I'm a little bit annoyed with myself of how long it took to fix some of the bugs which snuck their way into the code. The bug I'm talking about was of course the recursion error, which was painful as stated in the previous post, but all in all was a pretty easy solve. The error originated from the JK Flip Flops requesting each other's Q or Q' value, which then had to run through all the inputs again, calling the other JK Flip Flop, which as you can see would create an infinite loop. The way that I solved this issue was through creating a new variable to track if the JK Flip Flop had already been requested, and if it had, it would just output the Q value already saved without performing the logic with the inputs.
+
+```python
+
+...
+def performGateLogic(self):
+    if not self.requested: # self.requested is true if the method has already been called otherwise it's false and is changed to true
+        self.q = self.qN # qN -> Q Next
+        self.requested = True # self.requested changed to true here to signal that it has been requested
+        if self.getPinJ() == 1:
+            self.qN = 1 if self.q == 0 else 1
+        elif self.getPinK() == 1:
+            # You don't need the output of PinK if you have PinJ as they don't affect each other
+            self.qN = 0 if self.q == 1 else 0
+            # print("%s self.q -> %s" %(self.getLabel(), self.q))
+    return self.q
+...
+```
+
+After solving the bug by adding in the requested variable, it was time to make the program look nice in the terminal. First I had to get rid of the debug loop and all of the print() statements throughout the code. Then, I added in the main loop which inputted with an input("Button Pressed? ") and would set the pin for the switch to the input(), and grab the output of the final and gate. This would then print("Pulse sent") if the output was 1 or print("No Pulse"), and then it would set the two JK Flip Flops requested variable back to 0, which was the final part of the code that I needed to do to complete it!
+
+```python
+def main():
+    
+    ...
+    
+    # Debug loop
+    # while True:
+    #     print("\n\n *** Output: %s ***" % AndG3.getOutput())
+    #     JKFFB.requested = False
+    #     JKFFT.requested = False
+    #     print("\n\n New Clock Cycle \n\n")
+    
+    # Create Main Loop
+    while True:
+        button_press = int(input("Button Pressed? "))
+        Sw.pin = button_press
+        if AndG3.getOutput() == 1:
+            print("Pulse sent")
+        else:
+            print("No Pulse")
+        JKFFB.requested = False
+        JKFFT.requested = False
+```
+
+Overall, this project taught me a lot about recursion, debugging and logical thinking, and I believe that these have been extremely useful to my future in programming, giving me preparation for when I encounter similar issues or situations that would require dealing with recursion and other bugs that pop up. Besides giving skills of programming and logical thinking, this week has also given me a greater ability to work with people around me to locate the origin of bugs, or developing ideas for programming or just giving another perspective on how code can be implemented. In summary, I have found great value in the focus of this week and believe it has aided in developing my skills in logical thinking, debugging and general understanding.
+
+# The Internet and the W3C - Research and understanding
+## Web Development
+### 06/03/2022
+
+For the last part of the week, being not very long at all, I started having a look into the internet and how it works (Turns out it isn't magic...). The website at first glance looked like a long read, and when I looked closer, realised I was right, but it was a good one as it provided useful and accurate information.
+
+I got through about a quarter of the [page](http://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm) before the week ended and I learnt much about the infrastructure of the internet and how information is transported from one place to another through the internet, what protocol stacks and packets are, and how the commands `ping` and `tracert` work.
+
+In a nutshell:
+- `ping` sends a message to another computer and counts how long until a reply is received (or timed out)
+- `tracert` shows the path that is taken by your packets to a destination
+- Protocol Stacks and Packets are the steps taken for your computer to encode/decode and create a sendable message to the other computer
+
+Although this is only a small amount that I have read this week, I will read more about it next week and mess around with it to get a greater understanding of how the internet works to send and receive information from different sources, like how you're reading this blog post right now, there was a lot of stuff happening to get this page on your screen to read what I have to say about what I'm learning.
+
+Sorry that this is only a short blog post, but there wasn't too much to look at in terms of the amount of research I was able to do in the time period. In retrospect I could've looked at more information outside of class and been ahead of the work. Then again, either way I'm going to go through the information and read and understand it. All in all though, this is a nice to the **intro to web dev specifically** (As the data science and web dev were sharing work previously and are now starting to split off into their own things).
+
 # Logic Circuits and Object Oriented Programming - Research and understanding
 ## Data Science
 ### 27/02/2022
