@@ -68,7 +68,7 @@ In a nutshell:
 
 Although this is only a small amount that I have read this week, I will read more about it next week and mess around with it to get a greater understanding of how the internet works to send and receive information from different sources, like how you're reading this blog post right now, there was a lot of stuff happening to get this page on your screen to read what I have to say about what I'm learning.
 
-Sorry that this is only a short blog post, but there wasn't too much to look at in terms of the amount of research I was able to do in the time period. In retrospect I could've looked at more information outside of class and been ahead of the work. Then again, either way I'm going to go through the information and read and understand it. All in all though, this is a nice to the **intro to web dev specifically** (As the data science and web dev were sharing work previously and are now starting to split off into their own things).
+Sorry that this is only a short blog post, but there wasn't too much to look at in terms of the amount of research I was able to do in the time period. In retrospect I could've looked at more information outside of class and been ahead of the work. Then again, either way I'm going to go through the information and read and understand it. All in all though, this is a nice start to the specific Web Dev course and is providing a useful starting point to what I need to know for Web Dev.
 
 # Logic Circuits and Object Oriented Programming - Research and understanding
 ## Data Science
