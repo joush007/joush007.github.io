@@ -1,5 +1,30 @@
 ## Josh's Blog!
 
+# Accidentally falling behind
+## Data Science
+### 13/03/2022
+
+Reflecting back on this week, I didn't do too well in terms of keeping on track and getting the work done. Although by the end of the week all the tasks that needed to be completed got completed, I still didn't use all the time that was given to me in class wisely. This week, besides getting side tracked, I looked at doing the Internet and the W3c task for web dev, but I got distracted a few times, the first being when students of the year below me (year 10s) did practice for a maths test on the board and put "year 9 exam" above it, hoping to scare the year 9s a bit, and so logically, I decided to put a bunch of Specialist Mathematics work up on the board (Hardest maths for year 11), and wrote "year 10 exam" hoping it would scare them instead. Sadly though, the tactic didn't work too well, as by the end of it, I had found out that I got two of the year 10s wanting to do double spec next year... oops...
+
+Besides that I kept getting distracted casually, I'm not fully sure as to why but it will be something I look into avoiding in the coming weeks. This was a bit of a hassle for me as it kept me from getting the work I needed to get done, done. This normally occured as I got curious as to what the robotics class was doing, or talking to a mate, which normally aren't too bad and I don't focus on it for too long, but this week it got a bit more distracting and kept my mind away from the task.
+
+Finally, next week and the coming weeks I'll try to improve on this by just keeping on track doing my work as soon as I get it and not getting too distracted with what happens around me. I'll also make sure that I know what I'm doing for my tasks and do what I need to, possibly talking to mates along the way to consolidate knowledge, but not in too much of a distracting way.
+
+# The Internet and W3C
+## Web Development
+### 13/03/2022
+
+This week in web dev, I kept looking through the Internet and W3C task, which was mainly focused around the basics of how the internet works and what the W3C is and how it affect the internet to this day. Building on what was said last time in the web dev post, I went through a document of how the internet sends and receives information from places. This starts in a computer, gets compressed and turned into packets and sent through a range of different locations to get to the end destination, which will then be unpacked and decompressed etc to be able to be seen on the other side.
+
+A way of visualising what is happening in some of the steps, we ran some commands through the command prompt, those being:
+- `ping`
+- `tracert`
+With `ping` showing packets being sent and time it takes to receive a response to a certain destination and `tracert` showing the exact path that the packets take, through each stop along the way, to get to the end destination. There were a few other things that the document told me to run, but they seemed to be built for Windows 95/NT, thus I skipped those and just went through understanding what they were trying to talk about.
+
+The second half of the task was looking at the W3C or World Wide Web Consortium, where I had to look at who they are, their purpose, how they achieve their goal and how effective they are at achieving their goal. In a nutshell: the W3C is the World Wide Web Consortium, it was started in 1994 and their goal is to develop a set of standards and guidelines on the internet that give access to the internet to anyone, using any software or hardware, anywhere in the world, and for those that don't go by the standards of the W3C, they will have slower connections and incompatibility with some browsers and most search engines.
+
+Overall in terms of going through and learning the information from the task went well, although I did get sidetracked a few times this week which had me falling a bit behind in the task, but by the end of the week I caught up enough to have enough information to write this post, and give an overview of what I learnt throughout the week and how I went learning it throughout the week. Next week though, I will focus on making sure that I won't get as sidetracked in the task and that I will keep on track to get the task done.
+
 # Logic Circuits and Object Oriented Programming - Bug fix
 ## Data Science
 ### 06/03/2022
