@@ -3,10 +3,10 @@
 # Contents:
 1. 27/03/2022
     1. [Microsoft's TAY Twitter Bot](#tayTwitterBot)
-    2. [Finishing Ethics in Data](#finishEthicsInData)
+    2. [Finishing Ethics in Data](#dataEthics1)
 2. 20/03/2022
-    1. [Ethics in Data](#startEthicsInData)
-    2. [Regex](#startRegex)
+    1. [Ethics in Data](#dataEthics0)
+    2. [Regex](#regex0)
 3. 13/03/2022
     1. [Accidentally Falling Behind](#fallingBehind0)
     2. [The Internet and W3C](#iW3C1)
@@ -32,7 +32,7 @@ All programs that learn through its environment, though, have a risk of going wr
 
 Reflecting on this week's work, I believe I did alright and did sufficient research for the start of the task, and although I still need to research more and write up the actual report, I believe I'll be able to have that done by Monday week, which is when it's due. Another thing is that I believe I have done better this week than some others as I had decent motivation to get the work done and with that, I just got in there to get it done, and that's the sort of attitude that I'm hoping to bring into next week with me as I continue this task.
 
-# Finishing Ethics in Data <a name="finishEthicsInData"></a>
+# Finishing Ethics in Data <a name="dataEthics1"></a>
 ## Web Dev (Referring to Web Development as Web Dev now)
 ### 27/03/2022
 
@@ -42,7 +42,7 @@ As stated in the previous post, the RoboDebt algorithm was used to identify any 
 
 Reflecting back on the week, I did decently in going through the content I needed to go through and complete, and I did it with minimal distractions to myself. One of the things I picked up though, was that I am _slightly_ distracting to those around me, as I caught myself a few times talking to people who were doing their work and pulling them away from what they were doing. This is a great problem as I need to make sure that I get my work done, but also allow for everyone else to get their work done, as the world doesn't revolve around me, and so my goal for this week is to be as little of a distraction as I can, or preferably, not a distraction at all so that people can get what they need to do.
 
-# Ethics in Data <a name="startEthicsInData"></a>
+# Ethics in Data <a name="dataEthics0"></a>
 ## Data Science
 ### 20/03/2022
 
@@ -54,7 +54,7 @@ In a nutshell, the RoboDebt scheme was an automated way of figuring debts and ov
 
 In retrospect on this week, I believe I used the time I had this week well and got some decent information and a start on the research into RoboDebt and the unethical use of the data due to this scheme which ultimately led to the demise of the scheme. I believe I could've gotten more done and that although I used the time well, there is always more that I can do to enhance the quality of work I do, which I'll make sure I take note of for the future weeks.
 
-# Regex <a name="startRegex"></a>
+# Regex <a name="regex0"></a>
 ## Web Development
 ### 20/03/2022
 
