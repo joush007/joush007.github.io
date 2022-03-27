@@ -1,22 +1,22 @@
 ## Josh's Blog!
 
 # Contents:
-1. 27/03/2022
+- 27/03/2022
     1. [Microsoft's TAY Twitter Bot](#tayTwitterBot)
     2. [Finishing Ethics in Data](#dataEthics1)
-2. 20/03/2022
+- 20/03/2022
     1. [Ethics in Data](#dataEthics0)
     2. [Regex](#regex0)
-3. 13/03/2022
+- 13/03/2022
     1. [Accidentally Falling Behind](#fallingBehind0)
     2. [The Internet and W3C](#iW3C1)
-4. 06/03/2022
+- 06/03/2022
     1. [Logic Circuits and Object Oriented Programming - Bug fix](#LGC3)
     2. [The Internet and W3C - Research and Understanding](#iW3C0)
-5. 27/02/2022
+- 27/02/2022
     1. [Logic Circuits and Object Oriented Programming - Research and understanding](#LGC2)
     2. [Logic Circuits and Object Oriented Programming - Creating a logic circuit](#LGC1)
-6. 18/02/2022
+- 18/02/2022
     1. [Finite State Machines](#FSM0)
     2. [Logic Gates and Circuits](#LGC0)
 
