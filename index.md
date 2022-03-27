@@ -20,7 +20,7 @@
     1. [Finite State Machines](#FSM0)
     2. [Logic Gates and Circuits](#LGC0)
 
-# Microsoft's TAY Twitter Bot <a name="tayTwitterBot"></a>
+# <a name="tayTwitterBot"></a>Microsoft's TAY Twitter Bot
 ## Data Science
 ### 27/03/2022
 
@@ -32,7 +32,7 @@ All programs that learn through its environment, though, have a risk of going wr
 
 Reflecting on this week's work, I believe I did alright and did sufficient research for the start of the task, and although I still need to research more and write up the actual report, I believe I'll be able to have that done by Monday week, which is when it's due. Another thing is that I believe I have done better this week than some others as I had decent motivation to get the work done and with that, I just got in there to get it done, and that's the sort of attitude that I'm hoping to bring into next week with me as I continue this task.
 
-# Finishing Ethics in Data <a name="dataEthics1"></a>
+# <a name="dataEthics1"></a>Finishing Ethics in Data 
 ## Web Dev (Referring to Web Development as Web Dev now)
 ### 27/03/2022
 
@@ -42,7 +42,7 @@ As stated in the previous post, the RoboDebt algorithm was used to identify any 
 
 Reflecting back on the week, I did decently in going through the content I needed to go through and complete, and I did it with minimal distractions to myself. One of the things I picked up though, was that I am _slightly_ distracting to those around me, as I caught myself a few times talking to people who were doing their work and pulling them away from what they were doing. This is a great problem as I need to make sure that I get my work done, but also allow for everyone else to get their work done, as the world doesn't revolve around me, and so my goal for this week is to be as little of a distraction as I can, or preferably, not a distraction at all so that people can get what they need to do.
 
-# Ethics in Data <a name="dataEthics0"></a>
+# <a name="dataEthics0"></a>Ethics in Data
 ## Data Science
 ### 20/03/2022
 
@@ -54,7 +54,7 @@ In a nutshell, the RoboDebt scheme was an automated way of figuring debts and ov
 
 In retrospect on this week, I believe I used the time I had this week well and got some decent information and a start on the research into RoboDebt and the unethical use of the data due to this scheme which ultimately led to the demise of the scheme. I believe I could've gotten more done and that although I used the time well, there is always more that I can do to enhance the quality of work I do, which I'll make sure I take note of for the future weeks.
 
-# Regex <a name="regex0"></a>
+# <a name="regex0"></a>Regex
 ## Web Development
 ### 20/03/2022
 
@@ -66,7 +66,7 @@ There is more, but I didn't go too far into it as I read through parts of the pd
 
 This week was successful for learning some things about regex and ethics in data (next post), as I bleieve I was able to learn it better than some other things in the past due to the interactive nature of regex, using grep and a words file that taught about the possibilities of regex and how it can be used in many scenarios to make life easier. Besides that I had Morgan and Michael around who I was able to ask if I was having issues with any of the code, and so they gave me a bit more to work with if I ever got stuck.
 
-# Accidentally falling behind <a name="fallingBehind0"></a>
+# <a name="fallingBehind0"></a>Accidentally falling behind
 ## Data Science
 ### 13/03/2022
 
@@ -76,7 +76,7 @@ Besides that I kept getting distracted casually, I'm not fully sure as to why bu
 
 Finally, next week and the coming weeks I'll try to improve on this by just keeping on track doing my work as soon as I get it and not getting too distracted with what happens around me. I'll also make sure that I know what I'm doing for my tasks and do what I need to, possibly talking to mates along the way to consolidate knowledge, but not in too much of a distracting way.
 
-# The Internet and W3C <a name="iW3C1"></a>
+# <a name="iW3C1"></a>The Internet and W3C
 ## Web Development
 ### 13/03/2022
 
@@ -91,7 +91,7 @@ The second half of the task was looking at the W3C or World Wide Web Consortium,
 
 Overall in terms of going through and learning the information from the task went well, although I did get sidetracked a few times this week which had me falling a bit behind in the task, but by the end of the week I caught up enough to have enough information to write this post, and give an overview of what I learnt throughout the week and how I went learning it throughout the week. Next week though, I will focus on making sure that I won't get as sidetracked in the task and that I will keep on track to get the task done.
 
-# Logic Circuits and Object Oriented Programming - Bug fix <a name="LGC3"></a>
+# <a name="LGC3"></a>Logic Circuits and Object Oriented Programming - Bug fix
 ## Data Science
 ### 06/03/2022
 
@@ -144,7 +144,7 @@ def main():
 
 Overall, this project taught me a lot about recursion, debugging and logical thinking, and I believe that these have been extremely useful to my future in programming, giving me preparation for when I encounter similar issues or situations that would require dealing with recursion and other bugs that pop up. Besides giving skills of programming and logical thinking, this week has also given me a greater ability to work with people around me to locate the origin of bugs, or developing ideas for programming or just giving another perspective on how code can be implemented. In summary, I have found great value in the focus of this week and believe it has aided in developing my skills in logical thinking, debugging and general understanding.
 
-# The Internet and the W3C - Research and understanding <a name="iW3C0"></a>
+# <a name="iW3C0"></a>The Internet and the W3C - Research and understanding
 ## Web Development
 ### 06/03/2022
 
@@ -161,7 +161,7 @@ Although this is only a small amount that I have read this week, I will read mor
 
 Sorry that this is only a short blog post, but there wasn't too much to look at in terms of the amount of research I was able to do in the time period. In retrospect I could've looked at more information outside of class and been ahead of the work. Then again, either way I'm going to go through the information and read and understand it. All in all though, this is a nice start to the specific Web Dev course and is providing a useful starting point to what I need to know for Web Dev.
 
-# Logic Circuits and Object Oriented Programming - Research and understanding <a name="LGC2"></a>
+# <a name="LGC2"></a>Logic Circuits and Object Oriented Programming - Research and understanding
 ## Data Science
 ### 27/02/2022
 
@@ -184,7 +184,7 @@ After those two steps, I had to use a Karnaugh map to find the boolean functions
 To sum it up, I believe that this week has been mostly successful for Researching and Understanding the content in Logic Circuits, Finite State Machines and Object Oriented Programming, but there are still things that I need to dig deeper into to further my understanding, especially of Karnaugh maps at this point. This week has taught me a lot about the uses of FSM Diagrams and how they can be converted in Logic Circuit Diagrams and put into a functioning program.
 
 
-# Logic Circuits and Object Oriented Programming - Creating a logic circuit <a name="LGC1"></a>
+# <a name="LGC1"></a>Logic Circuits and Object Oriented Programming - Creating a logic circuit
 ## Web Development
 ### 27/02/2022
 _I love creating logic circuits from finite state machine diagrams_. This week we looked into Object Oriented Programming and Logic Circuits, in particular, JK Flip Flops and using logic gates to create a simple program. This program simulated a button that would only stay active for one clock cycle, and then disable until released and re-pressed. The clock cycle was simulated with a while loop and had an input through a switch, which was inputted once per clock cycle. This would go through a few AND, OR and NOT gates as well as 2 JK Flip Flops to have the button run for 1 clock cycle.
@@ -249,7 +249,7 @@ def main():
 ```
 
 
-# Finite State Machines <a name="FSM0"></a>
+# <a name="FSM0"></a>Finite State Machines
 ## Data Science
 ### 18/02/2022
 Throughout the week I was able to do some revision on finite state machines. The way we did this was through taking a set of instructions for a simple machine, showing how it would work visually, on a piece of paper or digitally, and then getting to implementing it in Python. Finite state machines are important as they are able to encapsulate the behaviour of a machine and how an input can change its output based on which **finite state** the machine is in. To understand the topic, we dove into creating a finite state machine to replicate the function of 1. A **Garage Door** and how that would work, and 2. A simple **Vending Machine**. Although sometimes tedious when I had to go back through the code and try to minimise it about 5 times, it was very informative and gave a great insight into different use cases of the finite state machines, with their simple, yet logical, uses.
@@ -334,7 +334,7 @@ while True:
 ```
 
 
-# Logic Gates and Circuits <a name="LGC0"></a>
+# <a name="LGC0"></a>Logic Gates and Circuits
 ## Web Development
 ### 18/02/2022
 Logic gates and circuits are quite important in I.T., especially the hardware of devices. This week we looked into Flip Flops as well as the basics of Logic Gates and using them to structure a **T-Flip Flop** and **D-Flip Flop**, as well as their use cases, most noteably that of storing data, and acting as a single bit. This topic was a struggle for some of us, as the main goal was to show us that recursion was possible and that it was used consistently by Flip Flops, but myself, Michael and Morgan all decided to get confused while attempting to understand the how a T-Flip-Flop works using the diagram on [logicly](logic.ly/demo). Luckily, though, by the end of it we were able to get the help we needed and an in-depth enough explanation of how they work from Mr. Griffin, without the use of the logicly diagram, but instead a random image on google images, oh how useful google is. If I was doing robotics, this information would be 10x more useful for me, but because I'm not, it's still useful but not 100% applicable in my work.
