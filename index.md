@@ -2,7 +2,7 @@
 
 # Contents:
 - 03/04/2022
-    1. [Microsoft's TAY Twitter Bot (Finishing)](tayTwitterBot1)
+    1. [Microsoft's TAY Twitter Bot (Finishing)](#tayTwitterBot1)
     2. [The W3C](#w3cAssignment)
 - 27/03/2022
     1. [Microsoft's TAY Twitter Bot](#tayTwitterBot)
@@ -23,7 +23,7 @@
     1. [Finite State Machines](#FSM0)
     2. [Logic Gates and Circuits](#LGC0)
 
-# <a name="tayTwitterBot1"></a> Microsoft's TAY Twitter Bot
+# <a name="tayTwitterBot1"></a> Microsoft's TAY Twitter Bot (Finishing)
 ## Data Science
 ### 03/04/2022
 
