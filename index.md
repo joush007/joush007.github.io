@@ -1,6 +1,9 @@
 ## Josh's Blog!
 
 # Contents:
+- 03/04/2022
+    1. [Microsoft's TAY Twitter Bot (Finishing)](tayTwitterBot1)
+    2. [The W3C](#w3cAssignment)
 - 27/03/2022
     1. [Microsoft's TAY Twitter Bot](#tayTwitterBot)
     2. [Finishing Ethics in Data](#dataEthics1)
@@ -19,6 +22,28 @@
 - 18/02/2022
     1. [Finite State Machines](#FSM0)
     2. [Logic Gates and Circuits](#LGC0)
+
+# <a name="tayTwitterBot1"></a> Microsoft's TAY Twitter Bot
+## Data Science
+### 03/04/2022
+
+This week was mainly just me doing my assignments, that of both research reports, one on Microsoft's TAY Twitter Bot, and the other on the W3C, which I talked about in the previous post. The case study for data science about ethical management had me looking into TAY's Twitter Bot and the ethical management of data.
+
+TAY's case was pretty straight forward, Microsoft made a Twitter Bot in 2016 that used machine learning to improve its conversational model through learning from other people's conversations and from talking to others directly. The release went smoothly at first, learning how it was meant to until a few hours in when TAY was introduced to internet trolls who said offensive, inappropriate things to her and used the 'repeat after me' function that allowed for someone to tell TAY to repeat after them, and she'd then tweet what they said. This was the only times she was inappropriate at first, but she quickly learned to say these things at her own free will, quickly adopting an inappropriate, offensive persona. She started to constantly say things that were intended to offend people, ranging from bringing up politics and issues in that category, to going all out Neo-Nazi saying that "Hitler was right I hate the jews." and much more. TAY was taken down in less than 24 hours and Microsoft issued a formal apology for TAY's outbursts, informing that they were going to try to make improvements on TAY's design.
+
+Reflecting back on the week, I believe that I left my assignments a bit too late, as I still had a lot to do by the weekend, giving me only two days to be able to complete the assignment, and even then I still managed to get a decent chunk of them done, and I believe that they won't be late, but it won't be comfortable in how much time I have to complete it. In the future I'll try to combat this by starting my assignments earlier and put in a lot of effort in staying on track with the schedule for my assignments and getting them done for the deadline.
+
+# <a name="w3cAssignment"></a> The W3C Research Report
+## Web Dev
+### 03/04/2022
+
+The W3C, or the World Wide Web consortium is an international community that works on building towards a long term goal of making the web accessible to everyone in the world. Their aim is to enable participation from everyone in the world on the web and to allow for ease of transferring information online. This week, I looked into The W3C for the web dev assignment, and how the W3C has affected the world we live in and the way that we access the internet.
+
+The W3C started in 1994 by Sir Tim Berners-Lee, who realised that finding and transferring information was just too difficult as it would require using different applications to do different things, and those applications would only be compatible with certain computers, leading to a lot of difficulty if you needed to access 2 seperate sets of information from 2 seperate applications that worked on 2 seperate computers, _I think you get where I'm going with that_. The point is, it was a pain to access information if you needed to access them from different applications that are incompatible with their counterparts hardware. This sparked the idea of creating a standardised set of regulations that enforced everyone to use the same format and would be able to be read by a browser that was compatible with their hardware.
+
+From there the W3C evolved to create more standards and HTML which would get updated every so often and become a larger organisation to work with many different businesses and organisations throughout the world. This non-centralised system allowed for an uncontrolled set of regulations that everyone abides by to create a more inclusive world wide web, and further their vision of making the Web accessible to everyone in the world.
+
+Reflecting back I believe that I did well to research and start the W3C task for web dev, as I did a lot of research and categorised the information, sorting and formatting to make my life easier in answering the questions when I needed to write the report. In future though I will start my assignment earlier as I believe I still didn't leave myself enough time to do the assignment to adequate quality.
 
 # <a name="tayTwitterBot"></a>Microsoft's TAY Twitter Bot
 ## Data Science
