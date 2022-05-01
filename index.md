@@ -111,6 +111,8 @@ Finally down the bottom, there was an image of the skeleton of an Elephant bird 
 
 The two weeks flew by with the creation of the website as it provided a fun little project with a little bit of Javascript thrown in there too. I believe that although I got through it pretty fast, it probably wasn't fast enough as it covered the basics of HTML and JS and I still took twice as long as it should've taken. Despite that though I was able to power through it, putting in my best work for not the best web page that actually doesn't look too bad. I also spoke with Michael about a few things while doing the project to see what I could do better or find ideas of what to put into the page and created a better one because of it. Through all of the fun that it was, I managed to develop further my understanding of using HTML and JS in creating a webpage and will be able to use these skills in the future.
 
+<iframe src="/htmlLearningStuff/index.html" height=200 width=400>
+
 # <a name="tayTwitterBot1"></a> Microsoft's TAY Twitter Bot (Finishing)
 ## Data Science
 ### 03/04/2022
