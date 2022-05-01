@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sketchy Website</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="dropdown">
+            <span>Dropdown</span>
+            <div class="dropdown-content">
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Door 1</a>
+                <br>
+                <a href="https://www.google.com.au">Door 2</a>
+                <br>
+                <a href="https://www.ebay.com.au">Door 3</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <span>Useful?</span>
+            <div class="dropdown-content">
+                <a href="./index.html" class="active">Home</a>
+                <br>
+                <a href="./page/index.html">Page</a>
+            </div>
+        </div>
+    </nav>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+    <p class="info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam blandit metus tincidunt,
+        gravida
+        est et, pretium eros. Donec a euismod dolor. Vestibulum posuere justo purus, quis dignissim lorem ultricies
+        vitae. Morbi scelerisque mi ipsum, at maximus est placerat sed. Curabitur nibh velit, convallis ut porta id,
+        fermentum nec lectus. Phasellus in metus scelerisque, iaculis nisi ut, iaculis massa. Curabitur tincidunt
+        interdum risus id dignissim. Fusce finibus ligula sed orci consequat, dictum bibendum nisl luctus.
+        Pellentesque
+        a commodo est.</p>
+    <p class="nonInfo">Phasellus eget vestibulum elit. Aenean sollicitudin aliquam leo, et finibus quam tempus eu.
+        Phasellus at mollis nisi. Quisque a mi sed tortor ultrices eleifend. Etiam condimentum, neque a consectetur
+        euismod, velit nisi placerat risus, vitae rhoncus purus velit vitae arcu. Fusce porttitor sem a sapien
+        volutpat,
+        in condimentum mauris finibus. Etiam euismod, nisi nec volutpat facilisis, erat nisi posuere magna, id
+        condimentum lorem orci ut justo. Pellentesque sit amet arcu id mauris ultricies tempus. Vestibulum ac
+        faucibus
+        elit, interdum malesuada orci. Sed libero sapien, viverra eget scelerisque nec, vehicula id diam. Sed vel
+        iaculis felis. Etiam metus lectus, interdum at lorem at, accumsan vestibulum nunc. Aenean neque est, iaculis
+        nec
+        posuere et, porta quis nulla. Duis consequat tortor sed nulla volutpat, id rutrum neque hendrerit.</p>
+
+    <p style="border-style: groove; border-width: thick; border-color: black; width: fit-content;">yes, this does
+        have a very thick border</p>
+
+    <h6 style="text-align: right;">Anonymised information we need</h6>
+
+    <form>
+        <label>WHAT is your favourite colour?</label><br>
+        <input type="text" name="colour"><br>
+        <label>Why are you on this page?</label><br>
+        <input type="text" name="why"><br>
+        <label>yes/no?</label><br>
+        <input type="radio" name="yesno" value="1">
+        <input type="radio" name="yesno" value="0"><br>
+        <label>How would you rate your experience? (horrible - excellent)</label><br>
+        <input type="range" name="experience"><br>
+        <label>What day is today?</label><br>
+        <input type="date" name="today"><br>
+        <label>can we have a random file?</label><br>
+        <input type="file" name="giveFile">
+        <input type="radio" name="yesnoFile" value="0">
+        <label><- no | yes -></label>
+        <input type="radio" name="yesnoFile" value="1"><br>
+        <input type="submit">Submit</button>
+    </form>
+    <br>
+    <img src="./assets/elephantBird.jpg" alt="Image of an elephant bird skeleton">
+    <br>
+    <br>
+    <br>
+    <table>
+        <tr>
+            <th>Grades</th>
+            <th>Hours of sleep per night</th>
+        <tr>
+            <td id="change0">5</td>
+            <td id="change1">2</td>
+        </tr>
+        <tr>
+            <td id="change2">8</td>
+            <td id="change3">124</td>
+        </tr>
+    </table>
+    <script>
+        function changeVals() {
+            var change0 = document.getElementById("change0");
+            var change1 = document.getElementById("change1");
+            var change2 = document.getElementById("change2");
+            var change3 = document.getElementById("change3");
+
+            setInterval(() => {
+                change0.innerHTML = Math.floor(Math.random() * 100);
+                change2.innerHTML = Math.floor(Math.random() * 100);
+                change1.innerHTML = Math.floor(Math.random() * 100)/100;
+                change3.innerHTML = Math.floor(Math.random() * 100)/100;
+            }, 100);
+        }
+
+        function onLoadScript () {
+            alert("This is a totally normal page, took us 50 seconds to put together and it's not even a real page");
+            changeVals();
+        }
+        window.onload = onLoadScript();
+
+    </script>
+
+    <br>
+
+</body>
+
+</html>
