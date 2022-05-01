@@ -1,6 +1,9 @@
 ## Josh's Blog!
 
 # Contents:
+- 01/05/2022
+    1. [Intro to Matplotlib and Numpy](#introMatplotlib0)
+    2. [Creating a Basic Website](#creatingWebsite0)
 - 03/04/2022
     1. [Microsoft's TAY Twitter Bot (Finishing)](#tayTwitterBot1)
     2. [The W3C](#w3cAssignment)
@@ -22,6 +25,91 @@
 - 18/02/2022
     1. [Finite State Machines](#FSM0)
     2. [Logic Gates and Circuits](#LGC0)
+
+# <a name="introMatplotlib0"></a> Intro to Matplotlib and Numpy
+## Data Science
+### 01/05/2022
+
+Over the past week, the data science course has had a look at graphs and graphing data in a meaningful way, or at least that's the goal. For the week, we looked at the basics of graphing information using Matplotlib, a mathematical plotting library which takes data and graphs it in a window. The main things looked over were basic use of using specific functions and exploring the limits of how to use specific graphs.
+
+A tutorial was used to first understand Matplotlib as we had to follow it and see what functions created what graphs and how they were actually setup. The most important part, for me at least, of the tutorial was the consolidation at the end, where we had to recreate a graph using only a limited amount of code. The graph depicted three cosine waves offset by 1 between each other and were in three subplots below each other. The code that was given to us looked like this:
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Try to reproduce the figure shown in images/exercise_1-1.png
+
+# Our data...
+x = np.linspace(0, 10, 100)
+y1, y2, y3 = np.cos(x), np.cos(x + 1), np.cos(x + 2)
+names = ['Signal 1', 'Signal 2', 'Signal 3']
+
+# Can you figure out what to do next to plot x vs y1, y2, and y3 on one figure?
+```
+
+With the intended result (This is also my final product which replicated the intended result) looking like this:
+![cosine wave graphs plotted in subplots](/pictures/01Figure_1.png)
+
+and the resulting code being:
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Try to reproduce the figure shown in images/exercise_1-1.png
+
+# Our data...
+x = np.linspace(0, 10, 100)
+y1, y2, y3 = np.cos(x), np.cos(x + 1), np.cos(x + 2)
+names = ['Signal 1', 'Signal 2', 'Signal 3']
+
+# Can you figure out what to do next to plot x vs y1, y2, and y3 on one figure?
+
+# Create figure and axes
+fig, axes = plt.subplots(nrows=3)
+
+# Set titles, limit the x and y for the cosine functions to fit nicely on the figure
+axes[0].set(title='Signal 1', xlim=(0, 10), ylim=(-1, 1))
+axes[1].set(title='Signal 2', xlim=(0, 10), ylim=(-1, 1))
+axes[2].set(title='Signal 3', xlim=(0, 10), ylim=(-1, 1))
+
+# Plot the cosine functions
+axes[0].plot(x, y1)
+axes[1].plot(x, y2)
+axes[2].plot(x, y3)
+
+# Show the figure
+plt.show()
+```
+
+The tutorial was quite helpful in educating me on how matplotlib works and how it can be used, and this was only part 1 of 2, which will allow me to consolidate the knowledge I have on matplotlib further in the next week.
+
+Looking back over the week I realise that I've learnt a decent amount on how to use matplotlib to visualise data, using the tutorial effectively and being able to recreate the graphs shown in the challenges that would aid in developing my understanding of the library. I used my time efficiently for the most part, getting through the first part of the tutorial, and I will try to get better at using my time efficiently, but all in all, I was able to get what needed to get done, done, and understand what I was working on throughout the process. I will aim to improve my efficiency at getting work done, as I did get into a few conversations here and there which kept me from doing my work, and I will also just keep trying to enjoy the class and keep inquiring into different routes of what I learn.
+
+# <a name="creatingWebsite0"></a> Creating a Basic Website
+## Web Dev
+### 01/05/2022
+
+Looking back to the past two weeks of classes, excluding the school holidays which took up two weeks, I went through the process of making a basic website to show my where I am in understanding html and css, and with looking at html previously on a few occasions, it proved to be a fun little task.
+
+The website task had a few layers to it, with only ten things needed in it's criteria, those being:
+1. At least one example of each kind of heading
+2. At least 2 paragraphs
+3. An attached css file that modifies the two paragraphs separately and styles the headings differently
+4. An example of inline and embedded css
+5. A link to an external website
+6. A form that contains at least 5 different kind of form elements
+7. An image
+8. A change in alignment with CSS
+9. A navbar with dropdown menus and changed opacity
+10. A table with tabular data
+
+The page looked like a throw-away page to say the least, with all six headings at the top, each being named and with a different style of underline for each, and both paragraphs having a border around it with filler text, that being the `lorem ipsum` text that is well known for appearing in templates to show how text would look. On a sidenote, when looking into the creating the website in the first week, we looked into what `lorem ipsum dolor sit amet` actually meant, and were able to find that the direct translation was actually `The pain itself is love` in Latin, and then a lot of other repeated text in other sequences, as it is filler text with no real meaning.
+
+On top of that, there was a basic navbar at the top with a dropdown that held three links, labelled as `Door 1`, `Door 2`, and `Door 3`, and dropdown which linked to another page with text saying that it was a page only intended to add to the page count, and held no other significance. Below the navbar and paragraphs was also a form, containing a few bits and pieces of the elements with a text input, a radio button, a submit button, a date picker, a slider and a file picker, which prove to be of no use, as the data put in doesn't save.
+
+Finally down the bottom, there was an image of the skeleton of an Elephant bird with alt text, and a table of data which is continuously changing numbers with the titles "Grades", where the numbers are random integers between 0 and 100, and "Hours of sleep per night", which are random floats between 0.01 and 1
+
+The two weeks flew by with the creation of the website as it provided a fun little project with a little bit of Javascript thrown in there too. I believe that although I got through it pretty fast, it probably wasn't fast enough as it covered the basics of HTML and JS and I still took twice as long as it should've taken. Despite that though I was able to power through it, putting in my best work for not the best web page that actually doesn't look too bad. I also spoke with Michael about a few things while doing the project to see what I could do better or find ideas of what to put into the page and created a better one because of it. Through all of the fun that it was, I managed to develop further my understanding of using HTML and JS in creating a webpage and will be able to use these skills in the future.
 
 # <a name="tayTwitterBot1"></a> Microsoft's TAY Twitter Bot (Finishing)
 ## Data Science
