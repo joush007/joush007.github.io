@@ -1,6 +1,9 @@
 ## Josh's Blog!
 
 # Contents:
+- 08/05/2022
+    1. [More Matplotlib and Numpy]()
+    2. [Intro to JavaScript](#introJS0)
 - 01/05/2022
     1. [Intro to Matplotlib and Numpy](#introMatplotlib0)
     2. [Creating a Basic Website](#creatingWebsite0)
@@ -25,6 +28,18 @@
 - 18/02/2022
     1. [Finite State Machines](#FSM0)
     2. [Logic Gates and Circuits](#LGC0)
+
+# <a name="introJS0"></a> Intro to JavaScript
+## Web Dev
+### 08/05/2022
+
+JavaScript is an important part of Web Dev, as it allows for a lot more possibilities in what can be created for a website. As you've probably guessed, this week JavaScript was the main focus. There was a few different things that I looked into this week, those being what a DOM is and a few of the basics of JavaScript interactions with HTML.
+
+The DOM, or Document Object Model is an API the defines how an `html` or `xml` file is logically structured. The DOM can be shown quite simply as a tree diagram, with each parent having one or more children, each child having exactly one parent, except the very top parent, which tends to be the `<HTML>` tag. Through the use of this information, I was tasked with taking 3 web pages and creating a tree diagram showing the Document Object Model for each of them, which would show the hierarchy of classes to better visualise what the HTML was doing.
+
+The second thing I looked at was the actual intro to using JavaScript to interact with the DOM. This consisted of creating elements, editing elements, deleting elements and editing attributes. The way to do this was to create a function in the html file with a `<script>` or a JavaScript file. From there you can get an element by id or tag with `document.getelementbyid()` or `document.getelementbytag()` and then change the inner html of the element by using `.innerHTML = x` with `x` being the new data for the element. On top of just changing the elements you can also handle events such as an onClick or onHover and even onRelease. The events are fun to play around with, and I won't get into it too much in this entry, but in a nutshell you can use these events, such as onClick, so that whenever a specific element is clicked, a function will be executed, allowing for changing of elements, or running some other task.
+
+Although it isn't all new to me, I enjoyed looking into JavaScript and what a DOM is, and understand that although by themselves they don't seem too exciting, they are the fundamentals of which I will continue to build my knowledge on. Reflecting back over the week, I did well to get what I've gotten done, done, but as usual there is room for improvement, especially looking at time management. Although I did get this much done, I could've gotten more done in the time given to me, which I will continue to work on getting better with. The quality of work and learning that I have gone through has also been good, as I have enjoyed looking through the different parts of the DOM and JavaScript, and have been putting in effort into the work that needs to be produced and submitted.
 
 # <a name="introMatplotlib0"></a> Intro to Matplotlib and Numpy
 ## Data Science
