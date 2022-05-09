@@ -71,7 +71,7 @@ ax.bar(x_pos, y_avg, yerr=y_err, color=barcolor, label='Data', edgecolor='gray',
 plt.show()
 ```
 which produced the output:
-![09Figure1](/pictures/09Figure_1.png)
+![09Figure1](/pictures/08Figure_1.png)
 
 The second graph dealt with using a pcolor mesh or a heat map of sorts, displaying data with colors, the code consisted of:
 ```python
@@ -108,7 +108,7 @@ fig.colorbar(im3, cax=cax, orientation='horizontal')
 plt.show()
 ```
 and produced:
-![09Figure_2](/pictures/09Figure_2.png)
+![09Figure_2](/pictures/08Figure_2.png)
 
 Looking back over the week I learnt a lot about how to use the Matplotlib library to display information in a useful way that is easily interpretable. I learnt a lot about the different classes and subclasses in Matplotlib and the subclass of Pyplot. Reflecting back, I got through a lot in the time given to me, although I probably could have gotten more done, as also stated in the previous post, I did get through what I needed to. In the events where I needed help, I did go to others for help, and it benefitted me as it gave me a greater understanding of the topic at hand. I'll continue to attempt to spend my time wisely in class and get through the topics that are being focused on.
 
