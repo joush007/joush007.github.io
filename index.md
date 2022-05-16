@@ -1,7 +1,10 @@
 ## Josh's Blog!
 
 # <a name="contents"></a>[Contents](#contents):
-- 08/05/2022
+- 16/05/2022
+    1. [A bit sidetracked...](#notMuch0)
+    2. [Looking into more JavaScript](#introJS1)
+- 08-09/05/2022
     1. [More Matplotlib and Numpy](introMatplotlib1)
     2. [Intro to JavaScript](#introJS0)
 - 01/05/2022
@@ -28,6 +31,36 @@
 - 18/02/2022
     1. [Finite State Machines](#FSM0)
     2. [Logic Gates and Circuits](#LGC0)
+
+# <a name="notMuch0"></a> A bit sidetracked...
+## Data Science
+### 16/05/2022
+
+This week I didn't get much work done due to stressing over my English assignment that I left until the last minute. Due to my poor planning and motivation to get the assignment done when I received I started to put it off and procrastinate, leading to the five weeks turning into two, and then into five days, then two and finally almost pulling an all nighter to get it in on time.
+
+I have realised that my issue lies withing the procrastination for doing something that I enjoy more instead of an assignment I have, which I will try to improve with on my assignments for Data Science and Web Dev. Instead of putting off the assignments until the last week, I will start doing the assignments earlier, that being when I receive them to make sure that the deadline won't pose to create to much stress and become overwhelming due to the lack of work that I did.
+
+The time that I used well this week, though, was mainly put into finishing up the tasks for Web Dev, and that, I believe, I did well. Although I didn't get it completely finished I did get through a good chunk of it that allowed me to have most of the concepts that it was teaching set in my mind.
+
+For the next week my main focus is to stay on top of tasks, as I don't want to go through the stress of not getting things done until the last minute. It might help running ideas by classmates or friends, and that's what I plan to do, and that's all as long as I stay on top of it all, and be hard on myself to get it done.
+
+# <a name="introJS1"></a> Looking into more JavaScript
+## Web Dev
+### 16/05/2022
+
+Throughout last week, I dived deeper into the world of JavaScript and how it interacts with the DOM. This can be used to create many different combinations of elements and designs to make a unique web page.
+
+For the week, I looked further into the different ways of using JavaScript. The things that I had learnt from the tutorial were able to be passed across into the another HTML document and I was able to create a simple page, in no way structured that made use of the different features that JavaScript has that allows it to interact with HTML in a useful way. A few specifics that I looked into were the functions:
+
+* `div.appendChild(element)`
+* `div.replaceChild(newElement, element)`
+* `document.write("Lorem ipsum dolor sit amet")`
+* `element.setAttribute("attribute", "value")`
+* `element.style.x`
+
+These different methods are used to be able to create different aspects of a web-page without hard coding it in, which in my mind is better, but might not be overall.
+
+I admit, I wasn't the most productive this week, although I did get a bunch done. I got sidetracked by a few things, which will be discussed more in the next post, and I was doing more work where I didn't need to. I decided to explore more out of the possibilities of the things that I _did_ learn instead of experimenting with those that I _was_ learning at the time. I'll make sure that throughout this week I really get back into the groove as I am receiving my assignment, and I'll attempt to get it done with good quality.
 
 # <a name="introMatplotlib1"></a> More Matplotlib and Numpy
 ## Data Science
