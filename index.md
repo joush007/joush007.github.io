@@ -52,11 +52,11 @@ Throughout last week, I dived deeper into the world of JavaScript and how it int
 
 For the week, I looked further into the different ways of using JavaScript. The things that I had learnt from the tutorial were able to be passed across into the another HTML document and I was able to create a simple page, in no way structured that made use of the different features that JavaScript has that allows it to interact with HTML in a useful way. A few specifics that I looked into were the functions:
 
-* `div.appendChild(element)`
-* `div.replaceChild(newElement, element)`
-* `document.write("Lorem ipsum dolor sit amet")`
-* `element.setAttribute("attribute", "value")`
-* `element.style.x`
+* `div.appendChild(element)` - Direct the specific element to become the child of a specific div container
+* `div.replaceChild(newElement, element)` - Switch out a specific element as a child for another element
+* `document.write("Lorem ipsum dolor sit amet")` - Write directly on the document specific text
+* `element.setAttribute("attribute", "value")` - Set a customisable attribute of an element
+* `element.style.x` - Change a style component, or an attribute by changing the '.style' to '.<attribute>'
 
 These different methods are used to be able to create different aspects of a web-page without hard coding it in, which in my mind is better, but might not be overall.
 
