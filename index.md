@@ -1,6 +1,9 @@
 ## Josh's Blog!
 
 # <a name="contents"></a>[Contents](#contents):
+- 23/05/2022
+    1. [Data Science Assignment & Matplotlib Part 4](#dataSciAssignment0)
+    2. [Web Dev Assignment](#webDevAssignment0)
 - 16/05/2022
     1. [A bit sidetracked...](#notMuch0)
     2. [Looking into more JavaScript](#introJS1)
@@ -31,6 +34,64 @@
 - 18/02/2022
     1. [Finite State Machines](#FSM0)
     2. [Logic Gates and Circuits](#LGC0)
+
+# <a name="dataScienceAssignment0"></a> Data Science Assignment & Matplotlib Part 4
+## Data Science
+### 23/05/2022
+
+Throughout the past week I was start thinking about what I was going to do for the assignment I have received for Data Science that involved me to obtain a dataset, create a hypothesis and then analyse the data to either prove or disprove my hypothesis, which includes plotting the data in a useful and easy to understand way. The other part of the week was me looking at doing part 4 of the intro to Matplotlib course, which I hadn't gotten entirely completed, but managed to get the first half of done.
+
+I'll start with the matplotlib stuff first. Through looking into more of the basics of matplotlib I was able to gain a deeper understanding into the different ways I can use matplotlib to plot data in a useful way, which will be useful for my assignment. I looked into the use of three main methods, those being:
+
+* `ax.margins()` - Change the margins for the plot, giving padding by x amount
+* `ax.axis()` - Change how the axis will fit into the plot
+* `ax.legend()` - Gives a legend for the different graphed lines/sets of data
+
+Through the use of the three methods I was able to replicate a specific graph looking like this:
+![2 circles graphed with a legend](./pictures/23Figure_1.png)
+
+The graph presented above was produced by the code:
+```py
+import numpy as np
+import matplotlib.pyplot as plt
+
+plt.style.use('classic')
+
+t = np.linspace(0, 2 * np.pi, 150)
+x1, y1 = np.cos(t), np.sin(t)
+x2, y2 = 2 * x1, 2 * y1
+
+colors = ['darkred', 'darkgreen']
+
+# Try to plot the two circles, scale the axes as shown and add a legend
+# Hint: it's easiest to combine `ax.axis(...)` and `ax.margins(...)` to scale the axes
+fig, ax = plt.subplots()
+ax.plot(x1, y1, color=colors[0], label='Inner')
+ax.plot(x2, y2, color=colors[1], label='Outer')
+
+ax.margins(y=0.05, x=0.2)
+ax.axis("tight")
+
+ax.legend()
+
+plt.show()
+```
+
+Secondly I was able to start on the data representation and analysis assignment, which I hadn't gotten much of it done, but I had looked into a few datasets, one of which being of annual car sales and the change throughout time, which is a topic that slightly interests me, and of which I find more interesting than other data sets available to me.
+
+As stated, I haven't gotten too much of the assignment done but I have had a look into the dataset and already partly developed a hypothesis, that being: As the Australian population increases, the amount of cars sold in Australia will also increase. The only issue is that I'm not 100% sure that I will stick with this dataset as I'm unable to actually find a csv download that would allow me to analyse the data, that will be my goal though for this week- I will try to find a csv file to use or change datasets to something I can analyse more efficiently.
+
+I believe that I could have used this week slightly better in preparing for the assignment and/or finishing up the part 4 of intro to matplotlib, but I got a decent amount done and that is one of the positives for this week. I will make sure that in future weeks I will get right into doing the assignment so that it is in on time or even early. This will be the challenge I set for myself for the week, and I will attempt to discipline myself to make sure it gets done, as I don't want a repeat of my English assignment.
+
+# <a name="webDevAssignment0"></a> Web Dev Assignment
+## Web Dev
+### 23/05/2022
+
+In Web Dev, I have received my assignment for creating a 5 page website for a fake product from a fake company, which is definetely not a rip-off of the company Anko called Danko. The idea of the assignment is to have any product of any category, that being kitchen appliances, toys, electronics, or literally anything that can be thought of, and developing a page to advertise or sell it, and a few more that have to do with the _company_.
+
+I haven't gotten too far into the assignment, but have already had a few ideas as to what I'm going to do in terms of the product that I will be advertising. The product I have chosen, which I might change later, is an air fryer, because I have heard a lot of good things about them and had recommendations from people who have air fryers, who cannot live without it... _sounds a bit like an addiction, but I won't judge it_. I've got to make a wireframe and sitemap for the website to show the layout plan for the website and visualise the connections from each of the webpages to each other and how they will interact with each other.
+
+The wireframe and sitemap are the minimum I have planned for this week, in hoping that I will be past that by the end of the week. Alongside that, my goal is to get a decent plan as to what I'm going to do when to get the most out of my time and create a fully functioning set of convincing web pages that act as a way to advertise and/or sell the product that I have chosen (the air fryer). I've used the time I've had this week well enough, getting ideas and different approaches into the assignment, but I still have a long way to go, and have the ability to talk to those around me when I get stuck, which will probably happen a few times, so that I can get a few different insights into ways I can approach specific problems.
 
 # <a name="notMuch0"></a> A bit sidetracked...
 ## Data Science
