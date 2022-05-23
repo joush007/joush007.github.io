@@ -2,7 +2,7 @@
 
 # <a name="contents"></a>[Contents](#contents):
 - 23/05/2022
-    1. [Data Science Assignment & Matplotlib Part 4](#dataSciAssignment0)
+    1. [Data Science Assignment & Matplotlib Part 4](#dataScienceAssignment0)
     2. [Web Dev Assignment](#webDevAssignment0)
 - 16/05/2022
     1. [A bit sidetracked...](#notMuch0)
