@@ -1,6 +1,9 @@
 ## Josh's Blog!
 
 # <a name="contents"></a>[Contents](#contents):
+- 30/05/2022
+    1. [New approach to the assignment](#dataScienceAssignment1)
+    2. [Progressing through the website](#webDevAssignment1)
 - 23/05/2022
     1. [Data Science Assignment & Matplotlib Part 4](#dataScienceAssignment0)
     2. [Web Dev Assignment](#webDevAssignment0)
@@ -35,6 +38,36 @@
     1. [Finite State Machines](#FSM0)
     2. [Logic Gates and Circuits](#LGC0)
 
+# <a name="dataScienceAssignment1"></a> New approach to the assignment
+## Data Science
+### 30/05/2022
+
+Last week I started the Data Science assignment, getting into the groove of finding some data sets, comparing them, creating a hypothesis and everything alongside it. I realise that previously the data sets I had chosen were quite simple and straight forward, not leaving much up to using my brain and figuring out what information could extracted from the data that is useful and interesting that would be used for proving or disproving my hypothesis. This week a few things changed about the approach and that's what I'm going to be what I'm putting into this entry today.
+
+Let's start things off with the first main change, the data sets. I said previously that I was going to look at annual car sales and the change throughout time, but was later told that it was too simple and straightforward, which is completely understandable, it seems that it would be a pretty straight forward answer. This week though I had looked into two seperate questions that I was hoping to find a dataset for. The first one was looking into people's socio-economic status based off of their first names to see if there was any correlation there. Sadly the issue that I ran into while looking into that question was finding the specific data sets. The data sets I needed had to have first names and their associated income, lifestyle or anything else that would indicate their associated socio-economic status. One idea that popped up was to look into a list of names that went to private schools, as they would normally have a slightly higher socio-economic status, but it seemed that the data isn't usually open to the public as I was unable to find any.
+
+The question that I finally ended up looking into was the question of 'How has housing costs increased in accordance with the cost of living?'. This I thought would be interesting as it isn't too straight forward and would leave room for interpreting the data in different ways and being able to see some of the trends and outliers that would pop up. I am especially curious of what has happened leading up to, and in 2020, as the price of buying a house seemed to start sky-rocketing, but I'll leave the data to decide if that is what actually happened. This provides a great opportunity in my studies to have fun with the data and add a bit of complexity to get a deeper answer into my question and hypothesis.
+
+Reflecting on the week, I was a bit slow in the Data Science side of things, unlike the Web Dev side. I may have gotten a lot of work done of the Web Dev side of things, but it led to me focusing on that. I realise that I had put too much time into just the Web Dev assignment and need to fix that. This upcoming week I'm going to make sure that I focus on getting both assignments done, dividing up my time so that I don't focus too much on just one assignment, and am able to get through both assignments before the due date.
+
+# <a name="webDevAssignment1"></a> Progressing through the website
+## Web Dev
+### 30/05/2022
+
+This past week I have been progressing through the assignment at a decent rate, getting through some of the major parts of the assignment, and starting on others. The parts I have done so far are the Wireframe, showing the basic layout of the webpage, and _almost_ the Sitemap, which will show how all the different pages on the site will connect to each other. Finally I have chipped into the creation of the actual pages and am at the point where I almost have the product page completed, besides finding a color palette which would work for the site and be a bit easy on the eyes.
+
+The Wireframe was probably one of the easiest parts of the process, requiring me to create some ideas that would lead to a useful and informative product page that was organised, informative and not hard to look at. This was done through another site called <a href="https://wireframe.cc">wireframe.cc</a> and my sitemap can be seen in the image below showing the design that was planned out for the products page.
+
+![Wireframe for my Web Dev assignment](/pictures/wireframe.png)
+
+From there I was able to start the actual creation of my website. I started with creating the basic layout shown in the image above, with each different section of the page shown with different colours, those being the navbar on the left and the four quadrants that made up the main parts of the products page, I would show an image below but I forgot to take a screenshot of the page itself, and so I will just have to describe it. On top of that I created a simple Danko Logo which was just the word DANKO in a nice font, because why not, and added that into the page alongside an image for the airfryer I was going to sell, and the placement for all the elements can be seen in the sitemap above. That pretty much concludes the point I've reached now, and although it seems like it wasn't much, there was a decent amount of time taken to complete this simple page, and I'm proud of the point I'm up to.
+
+![DANKO logo](/pictures/logo.png)
+
+Looking back over my progress throughout each week makes me think I could have done better, which is something I seem to state every week, saying that I hadn't used my time to the best of my ability. This week, though, I believe that I have gotten a lot done and I am proud of what I have produced for the assignment. I possibly could have gotten more done outside of class but even when I'm at home, I need a break sometimes, whether that be taking ten to fifteen minutes to just stop and take a breath, or to go do something else that I enjoy. With all of that in mind, I produced a result that I'm proud of and was able to get through a decent chunk of the assignment this week. Now I just need to do the other four pages in this week as the assignment's all due on next Monday..
+
+That's the plan then, for this week I'm going to focus on getting through the rest of the assignment, using my time well and not getting sidetracked by other things happening around the class.
+
 # <a name="dataScienceAssignment0"></a> Data Science Assignment & Matplotlib Part 4
 ## Data Science
 ### 23/05/2022
@@ -48,6 +81,7 @@ I'll start with the matplotlib stuff first. Through looking into more of the bas
 * `ax.legend()` - Gives a legend for the different graphed lines/sets of data
 
 Through the use of the three methods I was able to replicate a specific graph looking like this:
+
 ![2 circles graphed with a legend](./pictures/23Figure_1.png)
 
 The graph presented above was produced by the code:
