@@ -1,6 +1,9 @@
 ## Josh's Blog!
 
 # <a name="contents"></a>[Contents](#contents):
+- 30/07/2022
+    1. [More Big Data](#SB0)
+    2. [Not Much to do with Web Dev](#notMuch1)
 - 24/07/2022
     1. [Big Data](#bigData)
     2. [CSS Frameworks](#cssFrameworkd)
@@ -43,6 +46,67 @@
 - 18/02/2022
     1. [Finite State Machines](#FSM0)
     2. [Logic Gates and Circuits](#LGC0)
+
+# <a name="SB0"></a> Seaborn
+## Data Science
+### 01/08/2022
+
+Over the last week I was able to delve into Seaborn, the graphing library that is built off of matplotlib that allows for creating different graphs.
+
+Many different techniques were used in the tutorial of Seaborn as it was taking me through the different graphs available through seaborn and how to use them. This was also paired with cleaning of data and other techniques to make the data more accessible and graphing easier. For example, while displaying the poverty rates per state in the U.S.A. we were able to use the code:
+
+```py
+# Bar Plot
+# Poverty rate of each state
+# Fix any missing data with a value of 0 and type all as a float
+percentage_people_below_poverty_level.poverty_rate.replace(['-'],0.0,inplace = True)
+percentage_people_below_poverty_level.poverty_rate = percentage_people_below_poverty_level.poverty_rate.astype(float)
+# Get all unique values to not have too much overlap
+area_list = list(percentage_people_below_poverty_level['Geographic Area'].unique())
+area_poverty_ratio = []
+# Calculate poverty ratio
+for i in area_list:
+    x = percentage_people_below_poverty_level[percentage_people_below_poverty_level['Geographic Area']==i]
+    area_poverty_rate = sum(x.poverty_rate)/len(x)
+    area_poverty_ratio.append(area_poverty_rate)
+# Create a new dataframe with the new cleaned and sorted data
+data = pd.DataFrame({'area_list': area_list,'area_poverty_ratio':area_poverty_ratio})
+new_index = (data['area_poverty_ratio'].sort_values(ascending=False)).index.values
+sorted_data = data.reindex(new_index)
+
+# visualization
+
+# Create a figure and barplot
+plt.figure(figsize=(15,10))
+sns.barplot(x=sorted_data['area_list'], y=sorted_data['area_poverty_ratio'])
+plt.xticks(rotation= 45)
+# Label the axis
+plt.xlabel('States')
+plt.ylabel('Poverty Rate')
+# Title
+plt.title('Poverty Rate Given States')
+
+# Display plot
+plt.show()
+```
+
+The code comments explain it all, but in a nutshell the data is cleaned by replacing any missing data with a value of 0.0 and all data is converted to a float. From there a list is created and each area's poverty ratio is stored. The data is then sorted and put into a new dataframe to be re-indexed and fed into the plot which is then displayed in an easy to understand manner. It also created this output:
+
+![bar graph](./pictures/Figure_1_8.png)
+
+This has given me insight into the different methods I can use to use seaborn and plain old python to clean, organise and show data in a nice way. It has given me insight into the different methods available and also through the use of conversing with others in the course, I have been able to see different approaches to problems that I would most likely do in the most difficult way possible, <i>oops</i>. Either way, it helps me understand what I need to focus on in future lessons to develop necessary skills for data science if I do or don't want to follow a career route in it.
+
+# <a name="notMuch1"></a> Not Much to do with Web Dev (Game dev)
+## Web Dev
+### 01/08/2022
+
+Throughout the week I had not looked into much more to do with web dev as I had completed the work for the 2 weeks that was assigned and was looking into other things. Instead I looked into some concepts that were happening in the other courses, specifically the game dev course.
+
+The course wasn't directed towards me but instead to a classmate, but I was allowed to sit in, listen, and learn the concepts that were being talked about in game dev. The main concepts talked about were convergent evolution, which is the idea that although many animals grow and evolve as different animals, they still develop similar traits. For example, dolphins and bats both evolved to use echolocation and gorillas and pandas both developed opposable thumbs. This idea became relevant to game design as it shows the evolution of games alongside what else is happening in the world at the time or in other games being made and how similarities develop.
+
+There was a bit more looked at that I'm not going to go into today, but might have a bit of a reflection on later.
+
+All in all, the week went by well and I was able to learn a few things while not doing just Web Dev things. I was able to develop my understanding in other areas that I am not studying and ask questions on things I don't fully understand, which I got to do a few times. There wasn't too much to reflect on, besides the fact that I was not the greatest at staying focused while I had not much I needed to do. What I mean is that when I had nothing I **needed** to do there was still some things I could start doing which I ended up not doing. I plan on getting better at that in the future and possibly starting new concepts earlier so that I have plenty of time to get it done, or if I finish it, to ask if there's any extension work available or to listen in to the other courses as I'm just as interested in those as I am in Web Dev.
 
 # <a name="bigData"></a> Big Data
 ## Data Science
