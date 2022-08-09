@@ -47,6 +47,58 @@
     1. [Finite State Machines](#FSM0)
     2. [Logic Gates and Circuits](#LGC0)
 
+# <a name="bias"></a> The 5 Types of Bias
+## Data Science
+### 08/08/2022
+
+There are 5 types of bias in data that were covered in class last week. These 5 are **response bias**, **selection bias**, **presentation bias**, **ommitted variable bias** and **societal bias** and they take into account these things:
+
+* Response bias
+    * Using asked data, or data that requires a response.
+    * The data is subjective
+    * The data mainly comes from a few demographics and doesn't show all points of view.
+
+* Selection bias
+    * Data is directly for a person/selection
+    * E.g. advertisements or social media algorithms
+        * Shows things that are relevant
+        * Derives new data from how you respond to it
+
+* Presentation bias
+    * Representation of data could affect the way that it is collected
+    * Different fonts, highlighting, bold, size etc. all affect how important something seems
+
+* Ommitted Variable bias
+    * Variables that are left out of the data due to privacy concerns or other reasons may affect data
+
+* Social Bias
+    * Human inputted data will adopt human bias
+    * Examples of Social bias are evident in the Twitter TAY bot and similar.
+
+We looked at these biases and were able to get a decent understanding, but to really understand it we had to dive a bit deeper and go into some inquiry of situations where the bias occured. This was what I continued looking into for the week, but didn't have enough time to get into all of the biases.
+
+The week went by well and I struggled to get through the entire workload I needed to. I didn't finish all of the biases that I was looking for, and only got one of the biases inquired into. The research will continue to get done in this upcoming week and I should be able to get it all done by the end of the week. My time management was something I have talked about previously, and have said I need to work on, and I have gotten better with it, but it is still probably not at the point I need it to be at and so I will continue to work at it until it's at a reasonable point.
+
+# <a name="JQuery"></a> JQuery
+## Web Dev
+### 08/08/2022
+
+JQuery is a JavaScript library that is used to make the normal tasks you would complete in JavaScript that bit easier. This was introduced through a document that led us to a tutorial to run through which allowed us to get the general gist of the library. If you'd like to do the tutorial yourself, you can view it [**here**](https://jenkov.com/tutorials/jquery/index.html).
+
+The tutorial walked over the basics of JQuery, including how to use a selector and using the $(document).ready() which fires when everything on the page is loaded. This can be hooked up to a function to trigger a change of some elements on the document.
+
+Some of the different JQuery components that were looked at included (Pretty much just selectors):
+* $() - Select an element with the conditions that are in the "()", this could be (document) to select the document or other.
+    * $("element") - Select by element
+    * $("#id") - Select by ID
+    * $(".class") - Select by class
+    * $("Parent Child") - Select the specific child of a specific element
+    * $("div").has("p") - Select all divs that have a p element as a child
+    * $("div").filter(".class") - Grab all divs that have the class specified and then also check the children
+    * $('div[height="200"]') - Select all div elements where the height is set to 200, if '="200"' is not there, it will grab all that have a height attribute defined.
+
+The last week was good, and posed minimal challenges besides clashing at some points with the data science course in getting work done, but I was still able to get a good understanding of JQuery and a few of the possibilities, which there are a lot more of than I understand at this point. I had not done much collaboration with people throughout the week but instead used the time to focus on just getting the work done and further developing my understanding. Besides that, over the weekend I was able to talk to a family friend about his interests in the I.T. fields, which are close to mine, and we talked about some of the routes I'm taking in school that are hopefully going to set me up in my career in the future. All of the skills I'm learning in Web Dev and Data Science are further developing my thought patterns and understanding of I.T., logical thinking and problem solving which will be crucial for my future in I.T.. These skills will continue to be developed over the coming weeks and years and will hopefully lead me to a point of confidence with my skills.
+
 # <a name="SB0"></a> Seaborn
 ## Data Science
 ### 01/08/2022
