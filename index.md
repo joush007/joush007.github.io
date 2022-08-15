@@ -1,6 +1,12 @@
 ## Josh's Blog!
 
 # <a name="contents"></a>[Contents](#contents):
+- 15/08/2022
+    1. [Continuing to look at bias](#bias1)
+    2. [JQuery - Part 2](#JQuery1)
+- 08/08/2022
+    1. [The 5 types of Bias](#bias)
+    2. [JQuery](#JQuery)
 - 30/07/2022
     1. [More Big Data](#SB0)
     2. [Not Much to do with Web Dev](#notMuch1)
@@ -46,6 +52,118 @@
 - 18/02/2022
     1. [Finite State Machines](#FSM0)
     2. [Logic Gates and Circuits](#LGC0)
+
+# <a name="bias1"></a> Continuing to look at bias
+## Data Science
+### 15/08/2022
+
+Now I say continuing to look at bias, but I hadn't gotten much done last week on looking into biases. As stated last week, I was able to find a study on selection bias that would prove useful for the task I had been given, which was to find scenarios where specific biases had occured and to explain what happened, the effects and discuss if it was done or purpose or not.
+
+The week went by fast. Not like other weeks, but I feel like I wasn't able to get much done. I spent way too much time on web dev and running through the tutorial on JQuery, which I haven't completed yet, and I left myself with barely any time for looking through the different biases. This is definitely an issue as when I don't get one thing done on time as it has a sort-of domino effect, where it will also affect other tasks. My plan is to combat this by putting a lot more time into the subjects outside of class, and not just for I.T. but also for most of my other classes. This means that this week and in future weeks to come I'll have enough time in and outside of class to get work done. To help myself with this I have changed availabilities at work so that I can have more time to deal with school and get everything done to an acceptable standard.
+
+I'm lucky that the task was extended another week as I wasn't the only one falling behind, and so the plan is not just to combat time management issues, but also to get the biases task completed and to start on the next topics.
+
+# <a name="JQuery1"></a> JQuery - Part 2
+## Web Dev
+### 15/08/2022
+
+Building on the previous week, last week I was able to continue going over JQuery, figuring out the ins and outs of JQuery and the useful ways of implementing it. As stated last time, I have been going through a tutorial to get to develop my understanding of JQuery, although I'm falling slightly behind but have been figuring out ways of giving myself more time so that outside of class I am able to continue working on class work and getting the tasks I need to finish, completed.
+
+This week I was able to continue going through the tutorial building on previous knowledge. I made the decision to move the JavaScript into its own js file and import it into the html file using a `<script>` tag and then continue to run through it all in an easier-to-read way. The different things I learnt in the tutorial were placed into the js file and code commented to show my understanding, and then displayed in an html file. The new JQuery that I worked through can be seen here with comments that explain what they do:
+```js
+// text() reads or writes the text inside of an element
+var text = $("#datElement").text();
+$("#datElement").text("It Do Be Dat Element");
+
+// html() does the same as text() except also uses html instead of just text
+var html = $("#datElement").html();
+$("#datElement").html("<h1>It Do Be Dat Element</h1>");
+
+// val() gets and sets the values of form fields.
+var val = $("#dataElement").val();
+$("#dataElement").val("Insert Answer Here");
+
+// attr() gets and sets specific attribute values
+var attrVal = $("#anotherElement").attr("height");
+$("#anotherElement").attr({ height: 25 });
+
+// prepend() adds new html to the beginning of the element and append() adds new html to the end
+$("#theElement").prepend("New HTML | Prepend");
+$("#theElement").append("New HTML | Append");
+
+// before() and after() inserts HTML before/after the selected element
+$("#theElement").before("Inserter Before");
+$("#theElement").after("Inserted After");
+
+// insertBefore() and insertAfter() will move a html element before or after the selection
+$("#thisElement").insertBefore("#secondElement");
+$("#thisElement2").insertAfter("#thirdElement");
+
+// wrap() wraps the selected html in another html element
+$("#wrappedHtml").wrap("<div style='border: 1px solid black;'></div>");
+
+// replaceWith() replaces the selected element with new HTML
+$("#replaceThis").replaceWith("<div style='border: 1px solid black;'></div>");
+// You could also move the selection into the replacement e.g. putting it into a div:
+$("#replaceThis").replaceWith("<div style='border: 1px solid black;'>" + $("#replaceThis").html() + "</div>");
+
+// replaceAll() is like replaceWith() with backwards syntax
+$('<div style="border: 1px solid black"></div>').replaceAll("#replaceThis");
+
+// remove() deletes an element
+$('#removeThis').remove();
+
+// empty() removes all children of the element
+$("#emptyThis").empty();
+
+// clone() clones the selected element to be inserted somewhere else
+var clone = $("#cloneThis").clone();
+clone.insertBefore("thisElement");
+// Clone event handlers and data with true parameter
+var clone = $("#cloneThis").clone(true);
+clone.insertBefore("thisElement");
+
+// JQuery events
+
+// Mouse events
+
+// On Click
+$("#theDiv").on("click", function () {
+    alert("div clicked");
+})
+
+// Double Click
+$("div").on("dblclick", function () {
+    alert("div double clicked.")
+})
+
+// Mouse enter and leave
+$('#enterDiv').on("mouseenter", function () {
+    alert("div entered")
+})
+$("#leaveDiv").on("mouseleave", function () {
+    alert("I asked nicely, why you gotta be so mean?...")
+})
+// mousein() and mouseout() are similar to the mouseenter() and mouseleave() except they also fire for all children
+
+// Mouse down and up (clicking)
+$("#mouseupdown").on("mousedown", function () {
+    alert("mouse went down")
+})
+$("#mouseupdown").on("mouseup", function () {
+    alert("mouse went up")
+})
+
+// Mouse moved
+$("#theDiv").on("mousemove", function () {
+    alert("mouse moved here")
+})
+
+// Toggle shows or hides elements
+$("#toggleButton").on("click", function(){$("#toggleThingy").toggle(400)})
+```
+
+The snippet shows the different components that can be selected from the elements and how they can be read or written to as well as the different events that can be triggered to perform specified functions. There has been a lot that I've learnt over the course of the week in web dev as I took a decent amount of time to focus on it, and didn't get much done in data science as a result. This is something that I need to improve on as it will be a limiting factor in my future if I wasnt to continue down this route. If I go into uni I need to know how to manage my time well and it's a difficult thing to learn, as even after all these years in school, I'm still not the greatest at managing my time. The week has also enforced something I learnt a while ago, which is that when you get into the zone, you can get a lot done, and I got into that zone in one of the classes this week, where I could feel that I was really being productive which was better than other lessons. My plan for this upcoming week is to continue dividing up my time better in the two courses and get things done in both that I need to get done so that I can advance through the rest of the course at the same speed for both courses.
 
 # <a name="bias"></a> The 5 Types of Bias
 ## Data Science
