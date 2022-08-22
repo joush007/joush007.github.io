@@ -1,6 +1,9 @@
 ## Josh's Blog!
 
 # <a name="contents"></a>[Contents](#contents):
+- 21/08/2022
+    1. [Bias - The Finale](#bias2)
+    2. [JQuery - Part 3 - Ajax](#JQuery2)
 - 15/08/2022
     1. [Continuing to look at bias](#bias1)
     2. [JQuery - Part 2](#JQuery1)
@@ -52,6 +55,66 @@
 - 18/02/2022
     1. [Finite State Machines](#FSM0)
     2. [Logic Gates and Circuits](#LGC0)
+
+# <a name="bias2"></a> Bias - The Finale
+## Data Science
+### 21/08/2022
+
+Biases can be a bit of a hassle in data analysis, as when data that has a bias is analysed and used for something important, it will create a skewed output. The task that was assigned to me was to look into the different data biases and a scenario that has occurred due to the bias. They went as follows:
+* Response bias
+    * A study of patient satisfaction surveys in hospitals in 2002
+    * The aim was to identify and evaluate the presence of any response bias
+    * This found a correlation between average satisfaction level and response rate
+        * The more satisfied someone was, the more likely they were to respond
+
+* Selection bias
+    * A study was done on the data gathered from a previous study on the estimates of the proportion of the population with autism spectrum disorder (ASD) and an intellectual disability (ID)
+    * Previous studies showed those who have both ASD and ID was about 50%
+    * The study used a random effect meta analysis to take into account the slight inconsistencies across how the studies were taken out to determine how many participants didn't have ID
+    * The selection bias was estimated to have >75% of the participants not having ID & 94% of all participants identified as being on the autism spectrum not having ID
+
+* Presentation bias
+    * Search engines show presentation quite prominently, e.g. Google
+    * 2008 Study took user preferences for search results and how important/reliable they were based on their position on the page
+    * The closer it was to the top, the more reliable it seemed, even though it is sorted by popularity and had little to no reference to reliability
+
+* Ommitted Variable bias (This one took the longest to find)
+    * A study was done in a biomechanics lab that assessed the effects of physical activity on bone density
+    * A quick regressions analysis between the two showed no correlation between the two, when there was an expected positive correlation if all was correct
+    * Once another key variable was added, weight, the correlation became clearer, as the weight variable was an important variable that was omitted at first
+    * Once they were both added to the regression model, the results showed the two being statistically significant with a positive correlation with bone density
+
+* Social Bias
+    * In social bias, there wasn't necessarily a specific case that was gone over by anyone that I found, but instead I dove into a bit of research on the leadup to the BLM movement
+    * There wasn't much to look at in terms of the inner thoughts of the people, but I was able to look at the data in the percentage of 911 calls in the U.S. that involved using force with a gun, and the percentage of black residents in a neighbourhood
+    * There was shown to be a slight increase in the number of calls that involved guns with black officers as the percentage of black residents increased, but it grew at a much faster rate when looking at white officers in these areas.
+    * The bias links back to stereotypes held by a country and racism that is shown in society that has, although gotten better, still seeped through into today's society 
+    
+    [Answering the call](./pictures/2208Figure_1.png)
+
+The biases all looked at were interesting and able to give me a more indepth understanding on the issue of bias in data and how it can affect the different ways we analyse and use data which can give us a skewed output. I was able to use my time this week to find the different ways each of the different types of data were used, and also dig a little bit deeper into them, although not explicitly shown in this post. Next week, I will continue to dig into these while preparing for an exam that covers biases, and I will also prepare a few other exams that will also be coming up.
+
+# <a name="JQuery2"></a> JQuery - Part 3 - Ajax
+## Web Dev
+### 21/08/2022
+
+Over the past 2 weeks I was looking over JQuery and it's uses in Web Dev. On that topic, I also heard about something called AJAX for the first time, which stands for Asynchronous JavaScript and XML. Ajax is used for sending requests to a server to get external data without reloading a page, such as a seperate file. This is frequently used in social media sites such as twitter which sends a request back to the servers every so often to look for unread notifications.
+
+For example, in the seperate JS file that was discussed in the previous post, I used events with selectors to fire functions, this example looked like this:
+```js
+$("#ajax").on("click", function(){
+    $.ajax({ url:"js/text.txt", success:function(result){
+        $("#ajax").text(result)
+    }})
+})
+```
+The function uses a button, which when clicked fires a function that uses ajax to GET a file in the directory 'text.txt'. This is then used to update the text of the button to the text in the txt file.
+
+Prior to using AJAX here, I watched a few videos on what AJAX is and how to use it which were extremely useful in understanding and using AJAX on my own, the only issue I ran into was a CORS error, or a Cross Origin Resource Sharing error, which stopped me from remotely accessing other sites without any authentication, which is completely reasonable for security purposes. I'm not going to go over CORS here though, so if you want to know more, Google is a friend.
+
+I was happy that I got through all of that last week, and also started looking into UX, but not enough to write about just yet, I'll make sure to get through it all so that I can make a post about it here for next week though.
+
+All went well in the week, most things got done, and although I am slightly behind as I haven't done all the UX tasks, I feel happy that I have gotten to the point I'm at now, and motivated to continue going through the rest of the resources so that I'm prepared for the mid-term exam I have this week.
 
 # <a name="bias1"></a> Continuing to look at bias
 ## Data Science
