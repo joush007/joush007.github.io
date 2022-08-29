@@ -1,6 +1,9 @@
 ## Josh's Blog!
 
 # <a name="contents"></a>[Contents](#contents):
+- 29/08/2022
+    1. [Exams - Bias](#examBias)
+    2. [Exams - UX](#examUX)
 - 21/08/2022
     1. [Bias - The Finale](#bias2)
     2. [JQuery - Part 3 - Ajax](#JQuery2)
@@ -55,6 +58,37 @@
 - 18/02/2022
     1. [Finite State Machines](#FSM0)
     2. [Logic Gates and Circuits](#LGC0)
+
+# <a name="examBias"></a> Exam - Bias
+## Data Science
+### 29/08/2022
+
+Last week not much happened, so I have not much to talk about as no classes were help (except for the Monday) and I had exams. The only real thing that I did was some study/prep for the exam by going over a few biases and the way they affected data outcomes, that being I did a recap on the studies that I already talked about in previous posts.
+
+The recap looked over some of the things that I was studying last week and looked over the different effects it had on the outcomes of thge data and realisations of the data analysts. I then got into the exam and went back over what I learnt to answer the key question about how misrepresentation of data can be intentional and is the fault of the data analysts or methods/processes involved in collecting the data. I answered this in reference to 3 different misrepresentations of data and how they were affected by the processes involved and how they influenced the interpretation of the data. This was seen to have the possibility of a positive or negative impact, with the intensity varying, whether accidental or on purpose. This was the 'in a nutshell' of which I answered the question and wrote practically an entire essay on. I realised that my time management in this essay was a lot better than others, though, as in my English essay I only got through a very small portion as I took *way* too much time to plan, where in this one I didn't plan and just started writing as I knew what I was talking about, and I hope to bring this into the future exams and assignments so that I have less stress and am able to get everything done on time.
+
+This week, I am going to continue working through the classwork provided to grasp a decent understanding of the concepts taught so that I can use my own understanding in future tasks instead of only half learning something so that I won't have to look back over concepts multiple times when I should already have them stuck in my head.
+
+# <a name="examUX"></a> Exam - UX
+## Web Dev
+### 29/08/2022
+
+Last week not much happened, so I have not much to talk about as no classes were help (except for the Monday) and I had exams, although I can also talk about some other study into UX that I also had to study for the exam as I was a little bit behind on the classwork.
+
+The focus of the week was on UX a.k.a. User Experience, and how that directly influences how successful the page can be. To keep it simple, there are 8 rules of UX that need to be followed to create a decent website, those being:
+
+* Strive for consistency - Keep the pages/style consistent
+* Seek universal usability - Allow accessibility from everyone
+* Offer informative feedback - Give feedback on what's happening
+* Design dialogs to yield closure - Make sure the user knows exactly what's happening on the page
+* Offer simple error handling - If there's an error, make sure it is easily readable and understandable
+* Permit easy reversal of actions - Making mistakes happen, don't make people stress by not allowing a mistake to be reversed
+* Keep users in control - Make sure the users are in control at all times
+* Reduce short-term memory load - Keep it minimalistic at times, no need to overload the brain
+
+These rules to UX were also in the exam, where I needed to talk about the use of these in the success of websites, specifically in relation to LINGsCARS and the CSS Zen Garden, which took two completely different approaches to creating a website and the effects created were substantially different, although attacking certain parts of the UX similarly. The analysis of the sites used my previous understanding of how web pages are created and the effect it has on the interpretation of the page. I concluded that the UX does have an effect on how well the site performs but is not the entirety of what makes a page successful.
+
+This week on the other hand I am looking into local storage, where I will continue to develop my understanding to the point of knowing it like second nature, but also the plan is not to overload myself with schoolwork and give myself a bit of time to just do what I'd like and keep a bit of a balanced life as sometimes it just gets too overwhelming, so I need a minute to stop and just do what I enjoy.
 
 # <a name="bias2"></a> Bias - The Finale
 ## Data Science
