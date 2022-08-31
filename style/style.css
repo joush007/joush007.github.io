@@ -1,0 +1,14 @@
+img {
+    max-width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+#post-card {
+    cursor: pointer;
+}
