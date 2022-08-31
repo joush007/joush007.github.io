@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html class="h-full">
+
+<head lang="en-us">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <title>Josh's Blog - Home</title>
+    <script>
+        $(document).ready(function () {
+            let dsRecent = ""
+            let wdRecent = ""
+            $.ajax({
+                url: "./dataScience/data.json", success: function (data) {
+                    console.log(data)
+                    const dsRecent = data.posts[0]
+
+                    $("#dataScienceRecentBody").html(dsRecent.content.slice(0, 497) + "<b>...</b>")
+                    $("#dataScienceRecentTitle").text(dsRecent.title.replace("# ", ""))
+                    $("#dataScienceRecentTitle").parent().attr("href", `/dataScience?id=${dsRecent.id}`)
+                    $("#dataScienceRecentSub").text(dsRecent.date)
+                }
+            })
+
+            $.ajax({
+                url: "./webDev/web.json", success: function (data) {
+                    console.log(data)
+                    const wdRecent = data.posts[0]
+
+                    $("#webDevRecentBody").html(wdRecent.content.slice(0, 497) + "<b>...</b>")
+                    $("#webDevRecentTitle").text(wdRecent.title.replace("# ", ""))
+                    $("#webDevRecentTitle").parent().attr("href", `/webDev?id=${wdRecent.id}`)
+                    $("#webDevRecentSub").text(wdRecent.date)
+                }
+            })
+        })
+    </script>
+    <script type="text/javascript" src="./js/time.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand align-bottom" href="/">
+                <i class="bi bi-file-earmark-code"></i>
+                Josh's Blog
+            </a>
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item"><a href="/dataScience/" class="nav-link">Data Science</a></li>
+                <li class="nav-item"><a href="/webDev/" class="nav-link">Web Dev</a></li>
+            </ul>
+            <time id="dateTime" class="text-light"></time>
+        </div>
+    </nav>
+    <br>
+    <div>
+        <h1 class="text-center">Blogs</h1>
+        <br>
+        <br>
+        <div class="d-flex justify-content-evenly">
+            <div class="text-center flex-grow-1 p-5 w-50 h-100">
+                <h3>Data Science</h3>
+                <br>
+                <p>Blog posts related to the <b>Data Science</b> course</p>
+                <h5 class="text-lg font-medium">Recent Post</h5>
+                <div>
+                    <div class="card p-3" id="dataScienceRecent">
+                        <div class="card-title" id="dataScienceRecentTitleCard">
+                            <a>
+                                <h3 id="dataScienceRecentTitle"></h3>
+                            </a>
+                        </div>
+                        <div class="card-subtitle" id="dataScienceRecentSub">
+
+                        </div>
+                        <div class="card-body text-start">
+                            <p id="dataScienceRecentBody"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center flex-grow-1 p-5 w-50">
+                <h3>Web Dev</h3>
+                <br>
+                <p>Blog posts related to the <b>Web Dev</b> course</p>
+                <h5 class="text-lg font-medium">Recent Post</h5>
+                <div>
+                    <div class="card p-3" id="webDevRecent">
+                        <div class="card-title" id="webDevRecentTitleCard">
+                            <a>
+                                <h3 id="webDevRecentTitle"></h3>
+                            </a>
+                        </div>
+                        <div class="card-subtitle" id="webDevRecentSub">
+
+                        </div>
+                        <div class="card-body text-start">
+                            <p id="webDevRecentBody"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

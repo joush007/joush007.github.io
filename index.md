@@ -13,12 +13,12 @@
 - 08/08/2022
     1. [The 5 types of Bias](#bias)
     2. [JQuery](#JQuery)
-- 30/07/2022
+- 01/08/2022
     1. [More Big Data](#SB0)
     2. [Not Much to do with Web Dev](#notMuch1)
 - 24/07/2022
     1. [Big Data](#bigData)
-    2. [CSS Frameworks](#cssFrameworkd)
+    2. [CSS Frameworks](#cssFrameworks)
 - 06/06/2022
     1. [Completing the Assignment](#dataScienceAssignment2)
     2. [Completing the Website](#webDevAssignment2)
@@ -31,7 +31,7 @@
 - 16/05/2022
     1. [A bit sidetracked...](#notMuch0)
     2. [Looking into more JavaScript](#introJS1)
-- 08-09/05/2022
+- 09/05/2022
     1. [More Matplotlib and Numpy](introMatplotlib1)
     2. [Intro to JavaScript](#introJS0)
 - 01/05/2022
@@ -65,7 +65,7 @@
 
 Last week not much happened, so I have not much to talk about as no classes were help (except for the Monday) and I had exams. The only real thing that I did was some study/prep for the exam by going over a few biases and the way they affected data outcomes, that being I did a recap on the studies that I already talked about in previous posts.
 
-The recap looked over some of the things that I was studying last week and looked over the different effects it had on the outcomes of thge data and realisations of the data analysts. I then got into the exam and went back over what I learnt to answer the key question about how misrepresentation of data can be intentional and is the fault of the data analysts or methods/processes involved in collecting the data. I answered this in reference to 3 different misrepresentations of data and how they were affected by the processes involved and how they influenced the interpretation of the data. This was seen to have the possibility of a positive or negative impact, with the intensity varying, whether accidental or on purpose. This was the 'in a nutshell' of which I answered the question and wrote practically an entire essay on. I realised that my time management in this essay was a lot better than others, though, as in my English essay I only got through a very small portion as I took *way* too much time to plan, where in this one I didn't plan and just started writing as I knew what I was talking about, and I hope to bring this into the future exams and assignments so that I have less stress and am able to get everything done on time.
+The recap looked over some of the things that I was studying last week and looked over the different effects it had on the outcomes of the data and realisations of the data analysts. I then got into the exam and went back over what I learnt to answer the key question about how misrepresentation of data can be intentional and is the fault of the data analysts or methods/processes involved in collecting the data. I answered this in reference to 3 different misrepresentations of data and how they were affected by the processes involved and how they influenced the interpretation of the data. This was seen to have the possibility of a positive or negative impact, with the intensity varying, whether accidental or on purpose. This was the 'in a nutshell' of which I answered the question and wrote practically an entire essay on. I realised that my time management in this essay was a lot better than others, though, as in my English essay I only got through a very small portion as I took *way* too much time to plan, where in this one I didn't plan and just started writing as I knew what I was talking about, and I hope to bring this into the future exams and assignments so that I have less stress and am able to get everything done on time.
 
 This week, I am going to continue working through the classwork provided to grasp a decent understanding of the concepts taught so that I can use my own understanding in future tasks instead of only half learning something so that I won't have to look back over concepts multiple times when I should already have them stuck in my head.
 
@@ -124,7 +124,7 @@ Biases can be a bit of a hassle in data analysis, as when data that has a bias i
     * There was shown to be a slight increase in the number of calls that involved guns with black officers as the percentage of black residents increased, but it grew at a much faster rate when looking at white officers in these areas.
     * The bias links back to stereotypes held by a country and racism that is shown in society that has, although gotten better, still seeped through into today's society 
     
-    [Answering the call](./pictures/2208Figure_1.png)
+    ![Answering the call](/pictures/2208Figure_1.png)
 
 The biases all looked at were interesting and able to give me a more indepth understanding on the issue of bias in data and how it can affect the different ways we analyse and use data which can give us a skewed output. I was able to use my time this week to find the different ways each of the different types of data were used, and also dig a little bit deeper into them, although not explicitly shown in this post. Next week, I will continue to dig into these while preparing for an exam that covers biases, and I will also prepare a few other exams that will also be coming up.
 
@@ -359,7 +359,7 @@ plt.show()
 
 The code comments explain it all, but in a nutshell the data is cleaned by replacing any missing data with a value of 0.0 and all data is converted to a float. From there a list is created and each area's poverty ratio is stored. The data is then sorted and put into a new dataframe to be re-indexed and fed into the plot which is then displayed in an easy to understand manner. It also created this output:
 
-![bar graph](./pictures/Figure_1_8.png)
+![bar graph](/pictures/Figure_1_8.png)
 
 This has given me insight into the different methods I can use to use seaborn and plain old python to clean, organise and show data in a nice way. It has given me insight into the different methods available and also through the use of conversing with others in the course, I have been able to see different approaches to problems that I would most likely do in the most difficult way possible, <i>oops</i>. Either way, it helps me understand what I need to focus on in future lessons to develop necessary skills for data science if I do or don't want to follow a career route in it.
 
@@ -425,7 +425,7 @@ Bootstrap is probably the most beginner-friendly of the lot, with a lot of docum
 
 Using the latest bootstrap version I was able to create this:
 
-![Danko Homepage Bootstrap](./pictures/dankobs.png)
+![Danko Homepage Bootstrap](/pictures/dankobs.png)
 
 The navbar html looked like this:
 ```html
@@ -448,7 +448,7 @@ After that I looked into Materialize, which has a more relaxed feel to it, and m
 
 The product:
 
-![Danko Homepage Materialize](./pictures/DankoMat.png)
+![Danko Homepage Materialize](/pictures/DankoMat.png)
 
 The navbar snippet differs from the bootstrap version as it uses different classes and is quite a bit more simple. It was written as follows:
 
@@ -470,7 +470,7 @@ Finally came Tailwind. Tailwind differs significantly from the other two framewo
 
 The Tailwind version of the page looks a lot different but also required a bit more code to create:
 
-![Danko Hompage Tailwind](./pictures/DankoTail.png)
+![Danko Hompage Tailwind](/pictures/DankoTail.png)
 
 The code:
 
@@ -592,7 +592,7 @@ def deleteUncommonDates(df1: pd.DataFrame, df2: pd.DataFrame, column: str) -> pd
 
 and the output looked like this:
 
-![0606Figure1](./pictures/0606Figure1.png)
+![0606Figure1](/pictures/0606Figure1.png)
 
 With all of this I was able to get into the analysis part, and you can see that there's a big spike at the end of the graph from 2019 onwards, which I suspect was from the property price cycle, where the rate of price increase will change in a specific cycle. This was something that I was able to have a look into but was not able to fully confirm or deny it. This is something I am continually looking into up until the assignment is handed in.
 
@@ -664,7 +664,7 @@ I'll start with the matplotlib stuff first. Through looking into more of the bas
 
 Through the use of the three methods I was able to replicate a specific graph looking like this:
 
-![2 circles graphed with a legend](./pictures/23Figure_1.png)
+![2 circles graphed with a legend](/pictures/23Figure_1.png)
 
 The graph presented above was produced by the code:
 ```py
@@ -824,7 +824,7 @@ Looking back over the week I learnt a lot about how to use the Matplotlib librar
 
 # <a name="introJS0"></a> Intro to JavaScript
 ## Web Dev
-### 08/05/2022
+### 09/05/2022
 
 JavaScript is an important part of Web Dev, as it allows for a lot more possibilities in what can be created for a website. As you've probably guessed, this week JavaScript was the main focus. There was a few different things that I looked into this week, those being what a DOM is and a few of the basics of JavaScript interactions with HTML.
 

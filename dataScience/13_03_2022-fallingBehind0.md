@@ -1,0 +1,9 @@
+# Accidentally falling behind
+## Data Science
+### 13/03/2022
+
+Reflecting back on this week, I didn't do too well in terms of keeping on track and getting the work done. Although by the end of the week all the tasks that needed to be completed got completed, I still didn't use all the time that was given to me in class wisely. This week, besides getting side tracked, I looked at doing the Internet and the W3c task for web dev, but I got distracted a few times, the first being when students of the year below me (year 10s) did practice for a maths test on the board and put "year 9 exam" above it, hoping to scare the year 9s a bit, and so logically, I decided to put a bunch of Specialist Mathematics work up on the board (Hardest maths for year 11), and wrote "year 10 exam" hoping it would scare them instead. Sadly though, the tactic didn't work too well, as by the end of it, I had found out that I got two of the year 10s wanting to do double spec next year... oops...
+
+Besides that I kept getting distracted casually, I'm not fully sure as to why but it will be something I look into avoiding in the coming weeks. This was a bit of a hassle for me as it kept me from getting the work I needed to get done, done. This normally occured as I got curious as to what the robotics class was doing, or talking to a mate, which normally aren't too bad and I don't focus on it for too long, but this week it got a bit more distracting and kept my mind away from the task.
+
+Finally, next week and the coming weeks I'll try to improve on this by just keeping on track doing my work as soon as I get it and not getting too distracted with what happens around me. I'll also make sure that I know what I'm doing for my tasks and do what I need to, possibly talking to mates along the way to consolidate knowledge, but not in too much of a distracting way.
