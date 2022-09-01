@@ -34,7 +34,7 @@ jobs:
         git config --global user.name "JSON Maker ʕ •ᴥ•ʔ"
         git config --global user.email "joush007.json-maker.action@github.io"
 
-        git add -A
-        git commit -m "Update JSON"
-        git push
+        git add -A || true
+        git commit -m "Update JSON" || true
+        git push || true
 
