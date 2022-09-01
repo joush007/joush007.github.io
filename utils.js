@@ -23,13 +23,14 @@ export function createObj(path) {
             .slice(4)
             .join("\n")
             .replaceAll("\r", "")
+        
             
         content = new Showdown.Converter().makeHtml(content)
-        // console.log(title)
-
+        let preview = content.slice(0, 497).replaceAll(/<img src="(.*)".*\/?>/gm, '<br><a href="$1"><i>Image</i></a>')
+            
         date = dateFormat(date)
 
-        obj.posts.push({ file, date, title, content, id: file.split("-")[1].replace(".md", "") })
+        obj.posts.push({ file, date, title, content, preview, id: file.split("-")[1].replace(".md", "") })
     }
 
     obj.posts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())

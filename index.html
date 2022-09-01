@@ -19,7 +19,7 @@
                     console.log(data)
                     const dsRecent = data.posts[0]
 
-                    $("#dataScienceRecentBody").html(dsRecent.content.slice(0, 497) + "<b>...</b>")
+                    $("#dataScienceRecentBody").html(dsRecent.preview + "<b>...</b>")
                     $("#dataScienceRecentTitle").text(dsRecent.title.replace("# ", ""))
                     $("#dataScienceRecentTitle").parent().attr("href", `/dataScience?id=${dsRecent.id}`)
                     $("#dataScienceRecentSub").text(dsRecent.date)
@@ -31,7 +31,7 @@
                     console.log(data)
                     const wdRecent = data.posts[0]
 
-                    $("#webDevRecentBody").html(wdRecent.content.slice(0, 497) + "<b>...</b>")
+                    $("#webDevRecentBody").html(wdRecent.preview.slice(0, 497) + "<b>...</b>")
                     $("#webDevRecentTitle").text(wdRecent.title.replace("# ", ""))
                     $("#webDevRecentTitle").parent().attr("href", `/webDev?id=${wdRecent.id}`)
                     $("#webDevRecentSub").text(wdRecent.date)

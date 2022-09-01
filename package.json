@@ -1,8 +1,9 @@
 {
     "type": "module",
     "scripts": {
-        "web": "node /webDev/web.js",
-        "data": "node /dataScience/data.js"
+        "web": "node webDev/web.js",
+        "data": "node dataScience/data.js",
+        "build": "npm run web & npm run data"
     },
     "dependencies": {
         "showdown": "^2.1.0"
