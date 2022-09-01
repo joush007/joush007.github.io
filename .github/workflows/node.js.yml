@@ -29,3 +29,9 @@ jobs:
     - run: npm ci
     - run: node ./webDev/web.js
     - run: node ./dataScience/data.js
+    - name: Commit and push changes
+      run: |
+        git add -A
+        git commit -m "Update JSONs"
+        git push
+
