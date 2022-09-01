@@ -31,7 +31,10 @@ jobs:
     - run: node ./dataScience/data.js
     - name: Commit and push changes
       run: |
+        git config --global user.name "JSON Maker ʕ •ᴥ•ʔ"
+        git config --global user.email "joush007.json-maker.action@github.io"
+
         git add -A
-        git commit -m "Update JSONs"
+        git commit -m "Update JSON"
         git push
 
