@@ -8,6 +8,9 @@
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="/style/style.css">
     <title>Josh's Blog - Data Science</title>
@@ -33,7 +36,7 @@
 
                         for (let post of data.posts) {
 
-                            $("#posts").append(`<div class="card m-5 p-5" id="post-card">
+                            $("#posts").append(`<div class="card m-5 p-md-5 p-3" id="post-card">
                                     <div class="card-title" id="dataScienceRecentTitleCard">
                                         <h3 id="dataScienceTitle">${post.title.replace("# ", "")}</h3>
                                     </div>
@@ -57,23 +60,30 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+    <nav class="navbar navbar-dark bg-dark navbar-expand-md">
         <div class="container-fluid">
             <a class="navbar-brand align-bottom" href="/">
                 <i class="bi bi-file-earmark-code"></i>
                 Josh's Blog
             </a>
-            <ul class="navbar-nav me-auto">
-                <li class="nav-item"><a href="/dataScience/" class="nav-link active">Data Science</a></li>
-                <li class="nav-item"><a href="/webDev/" class="nav-link">Web Dev</a></li>
-            </ul>
-            <time id="dateTime" class="text-light"></time>
+            <button class="navbar-toggler position-absolute translate-middle-x top-0 mt-2 start-50" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a href="/dataScience/" class="nav-link active">Data Science</a></li>
+                    <li class="nav-item"><a href="/webDev/" class="nav-link">Web Dev</a></li>
+                </ul>
+            </div>
+            <time id="dateTime" class="text-light position-absolute end-0 p-3 top-0"></time>
         </div>
     </nav>
     <br>
-    <h1 class="text-center">Blogs</h1>
+    <h1 class="text-center">Data Science Blogs</h1>
     <div id="posts">
-        <div class="card m-5 p-5" id="post-card">
+        <div class="card m-5 p-md-5 p-3" id="post-card">
             <div class="card-title" id="dataScienceRecentTitleCard">
                 <h3 id="dataScienceTitle"></h3>
             </div>
