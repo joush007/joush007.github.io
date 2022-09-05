@@ -1,4 +1,4 @@
-# Updating the Blog Page and Local Sto
+# Updating the Blog Page and Local Storage
 ## Web Dev
 ### 05/09/2022
 
