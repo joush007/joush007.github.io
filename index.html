@@ -15,27 +15,37 @@
     <title>Josh's Blog - Home</title>
     <script>
         $(document).ready(function () {
-            let dsRecent = ""
-            let wdRecent = ""
+            let dsRecent;
+            let wdRecent;
+
+            // Grab JSON containing all posts for Data Science
             $.ajax({
                 url: "./dataScience/data.json", success: function (data) {
-                    console.log(data)
+
+                    // Sorted by date, posts[0] is most recent
                     const dsRecent = data.posts[0]
 
+                    // Preview limited to 500 char (including "...")
                     $("#dataScienceRecentBody").html(dsRecent.preview + "<b>...</b>")
+                    // In case any # got through
                     $("#dataScienceRecentTitle").text(dsRecent.title.replace("# ", ""))
+                    // Parent is an <a> tag, on click send to the page of the post
                     $("#dataScienceRecentTitle").parent().attr("href", `/dataScience?id=${dsRecent.id}`)
                     $("#dataScienceRecentSub").text(dsRecent.date)
                 }
             })
-
+            // Grab JSON containing all posts for Web Dev
             $.ajax({
                 url: "./webDev/web.json", success: function (data) {
-                    console.log(data)
+                    
+                    // Sorted by date, posts[0] is most recent
                     const wdRecent = data.posts[0]
 
-                    $("#webDevRecentBody").html(wdRecent.preview.slice(0, 497) + "<b>...</b>")
+                    // Preview limited to 500 char (including "...")
+                    $("#webDevRecentBody").html(wdRecent.preview + "<b>...</b>")
+                    // In case and # got through
                     $("#webDevRecentTitle").text(wdRecent.title.replace("# ", ""))
+                    // Parent is an <a> tag, on click send to the page of the post
                     $("#webDevRecentTitle").parent().attr("href", `/webDev?id=${wdRecent.id}`)
                     $("#webDevRecentSub").text(wdRecent.date)
                 }
@@ -46,28 +56,34 @@
 </head>
 
 <body>
+    <!-- Navbar holds icon, then buttons -->
     <nav class="navbar navbar-dark bg-dark navbar-expand-md">
         <div class="container-fluid">
             <a class="navbar-brand align-bottom" href="/">
+                <!-- Icon/Brand for page -->
                 <i class="bi bi-file-earmark-code"></i>
                 Josh's Blog
             </a>
+            <!-- If screen is too small, hide navbar and have a toggle button (For phones or other small screens) -->
             <button class="navbar-toggler position-absolute translate-middle-x top-0 mt-2 start-50" type="button"
                 data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                 aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            <!-- Navbar Items/buttons -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item"><a href="/dataScience/" class="nav-link">Data Science</a></li>
                     <li class="nav-item"><a href="/webDev/" class="nav-link">Web Dev</a></li>
                 </ul>
             </div>
+            <!-- Local time, on hover: Time since EPOCH -->
             <time id="dateTime" class="text-light position-absolute end-0 p-3 top-0"></time>
         </div>
     </nav>
     <br>
     <div>
+        <!-- Recent Posts -->
         <h1 class="text-center">Blogs</h1>
         <div class="d-lg-flex justify-content-evenly">
             <div class="text-center flex-grow-1 p-5 w-100 w-md-50 h-100">
@@ -76,6 +92,7 @@
                 <p>Blog posts related to the <b>Data Science</b> course</p>
                 <h5 class="text-lg font-medium">Recent Post</h5>
                 <div>
+                    <!-- Tags are empty, filled by script at the top of the file -->
                     <div class="card p-3" id="dataScienceRecent">
                         <div class="card-title" id="dataScienceRecentTitleCard">
                             <a>
@@ -97,6 +114,7 @@
                 <p>Blog posts related to the <b>Web Dev</b> course</p>
                 <h5 class="text-lg font-medium">Recent Post</h5>
                 <div>
+                    <!-- Tags are empty, filled by script at the top of the file -->
                     <div class="card p-3" id="webDevRecent">
                         <div class="card-title" id="webDevRecentTitleCard">
                             <a>

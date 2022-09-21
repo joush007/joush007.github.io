@@ -16,24 +16,30 @@
     <title>Josh's Blog - Data Science</title>
     <script>
         $(document).ready(function () {
+            // Grab all data science posts in JSON file
             $.ajax({
                 url: "./data.json", success: function (data) {
-                    console.log(data)
 
+                    // Search Parameters (e.g. ?id=x)
                     x = new URLSearchParams(window.location.search)
 
+                    // If ID is specified, show the post with that ID, else show preview of all posts
                     if (x.has("id")) {
+
+                        // Grab the post with the same ID specified and display it
                         console.log(data.posts.find(post => post.id === x.get("id")))
-                        const dsRecent = data.posts.find(post => post.id === x.get("id"))
-                        $("#dataScienceBody").html(dsRecent.content)
-                        $("#dataScienceTitle").text(dsRecent.title.replace("# ", ""))
-                        $("#dataScienceDate").text(dsRecent.date)
-                        $("#post-card").css({cursor:"auto"})
+                        const dsPost = data.posts.find(post => post.id === x.get("id"))
+                        $("#dataScienceBody").html(dsPost.content)
+                        $("#dataScienceTitle").text(dsPost.title.replace("# ", ""))
+                        $("#dataScienceDate").text(dsPost.date)
+                        // On hover automatically set to pointer, if on a specific post, you can't click any other posts, so set to normal cursor
+                        $("#post-card").css({ cursor: "auto" })
                     }
                     else {
-
+                        // Clear children of the #posts div
                         $("#posts").children().remove()
 
+                        // Append each post to the end of the #posts div with preview and relevant info
                         for (let post of data.posts) {
 
                             $("#posts").append(`<div class="card m-5 p-md-5 p-3" id="post-card">
@@ -47,6 +53,8 @@
                                         <p id="dataScienceBody">${post.preview.slice(0, 297)}<b>...</b></p>
                                     </div>
                                 </div>`)
+                            // On each run through, last is updated to the most recent
+                            // On click, send to the relevant post
                             $("#posts").children().last().on("click", function () {
                                 window.location.href = "?id=" + post.id
                             })
@@ -67,8 +75,8 @@
                 Josh's Blog
             </a>
             <button class="navbar-toggler position-absolute translate-middle-x top-0 mt-2 start-50" type="button"
-                data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                aria-expanded="false" aria-label="Toggle navigation">
+                data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -84,6 +92,10 @@
     <h1 class="text-center">Data Science Blogs</h1>
     <div id="posts">
         <div class="card m-5 p-md-5 p-3" id="post-card">
+            <a href="./">
+                <i class="bi bi-arrow-left text-black" title="Back" style="-webkit-text-stroke: 2px"></i>
+            </a>
+            <br><br>
             <div class="card-title" id="dataScienceRecentTitleCard">
                 <h3 id="dataScienceTitle"></h3>
             </div>
