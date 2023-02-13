@@ -1,9 +1,0 @@
-# Web Dev Assignment
-## Web Dev
-### 23/05/2022
-
-In Web Dev, I have received my assignment for creating a 5 page website for a fake product from a fake company, which is definetely not a rip-off of the company Anko called Danko. The idea of the assignment is to have any product of any category, that being kitchen appliances, toys, electronics, or literally anything that can be thought of, and developing a page to advertise or sell it, and a few more that have to do with the _company_.
-
-I haven't gotten too far into the assignment, but have already had a few ideas as to what I'm going to do in terms of the product that I will be advertising. The product I have chosen, which I might change later, is an air fryer, because I have heard a lot of good things about them and had recommendations from people who have air fryers, who cannot live without it... _sounds a bit like an addiction, but I won't judge it_. I've got to make a wireframe and sitemap for the website to show the layout plan for the website and visualise the connections from each of the webpages to each other and how they will interact with each other.
-
-The wireframe and sitemap are the minimum I have planned for this week, in hoping that I will be past that by the end of the week. Alongside that, my goal is to get a decent plan as to what I'm going to do when to get the most out of my time and create a fully functioning set of convincing web pages that act as a way to advertise and/or sell the product that I have chosen (the air fryer). I've used the time I've had this week well enough, getting ideas and different approaches into the assignment, but I still have a long way to go, and have the ability to talk to those around me when I get stuck, which will probably happen a few times, so that I can get a few different insights into ways I can approach specific problems.

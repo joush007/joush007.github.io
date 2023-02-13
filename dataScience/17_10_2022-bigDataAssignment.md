@@ -1,9 +1,0 @@
-# Big Data Assignment
-## Data Science
-### 17/10/2022
-
-Last week I got a bit of a start on my assignment (at the times where I wasn't learning SQL). I had a read over the outline for the assignment and understood that it was asking me to replicate the previous assignment on finding and analysing a dataset to get useful information, but on a larger scale, a.k.a. **Big** data, and using the techniques specified previously (Random sampling and map reduce) to make the burden of processing data easier and less biased.
-
-I don't have much to talk about in what I've done, as there was no material progress made, but instead, I had a look into a few data sets to see if I could get any inspiration for my assignment and see if any questions would pop up that I could expand on and explore. I wanted to find *anything* that sparked a question, but I wasn't able to find anything yet. I am going to continue looking into different data sets to spark questions, or preferably, finding a question that I could answer and then finding some datasets I could use to explore that topic and answer those questions.
-
-As said, I don't have much to work with this week, but I will continue exploring the possibilities of what I could look into to answer any questions that come up. Thus, I probably didn't use my time to the greatest extent, but I used what I could to get as much of the first part of the assignment done as I could although it wasn't as much as I'd hoped for. This week I am hoping to get more done on the ideation of the assignment and get a good plan for what I will be looking into and hopefully getting a start on the data analysis.

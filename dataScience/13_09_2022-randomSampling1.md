@@ -1,9 +1,0 @@
-# Random Sampling Continued... (Sorta)
-## Data Science
-### 13/09/2022
-
-I'm not going to lie, not much got done last week in regards to random sampling as I was having a bit of difficulty with getting motivated. Due to this lack of motivation I was prone to getting side tracked in class and was unable to stay on task as much as I had liked, but at least I got a little bit done that was of no use to the overarching thing that I was meant to be doing.
-
-The week passed by quite quickly while looking back, as I hadn't gotten much done, but I did download a 750mb file that I started to analyse and use random sampling on from Stanford, but that wouldn't be classified very well as **big data** now, would it. I wanted to start getting used to the method and used the random module which gave me access to use the random.choice() to select random data points and then use those, but I didn't save any graphs that I had. I was able to learn the importance of using random sampling to lighten the workload for the computer and increase runtime but also found that using random selectoin sampling can also lead to a change in what the data is showing and be outputting skewed data.
-
-I don't have much to talk about for last week as I had a hard time staying focused and motivated to get the work done but I was still able to get a brief outline of the uses of random sampling and how to use it in general, but next week I'll explore some other methods of lightening the burden for processing and visualising data using MapReduce and Tensorflow (which I will try because I have access to the resources of it). On top of that I will also try to get a bit more motivated and finish up the assignments in other subjects that I'm leaving last minute *oops*.
