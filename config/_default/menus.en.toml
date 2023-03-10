@@ -1,5 +1,5 @@
 [[main]]
-  name = "Blog"
+  name = "Blog Posts"
   pageRef = "posts"
   weight = 10
 
@@ -13,30 +13,3 @@
   name = "GitHub"
   url = "https://github.com/joush007"
   weight = 30
-
-[[main]]
-  name = "Parent"
-  weight = 20
-
-[[main]]
-  name = "sub-menu 1"
-  parent = "Parent"
-  pageRef = "samples"
-  weight = 20
-
-[[main]]
-  name = "sub-menu 2"
-  parent = "Parent"
-  pageRef = "samples"
-  weight = 20
-
-[[main]]
-  name = "sub-menu 3"
-  parent = "Parent"
-  pre = "github"
-  pageRef = "samples"
-  weight = 20
-
-[[footer]]
-  name = "Privacy"
-  url = "https://external-link"
