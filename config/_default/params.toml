@@ -1,0 +1,30 @@
+colorScheme = "Neon"
+defaultAppearance = "dark"
+enableSearch = true
+enableCodeCopy = true
+defaultBackgroundImage = "img/background.png"
+
+[homepage]
+layout = "hero"
+showRecent = true
+showRecentItems = 4
+homepageImage = "img/background.png"
+layoutBackgroundBlur = true
+cardViewScreenWidth = true
+
+[article]
+showDate = true
+showViews = true
+showTaxonomies = true
+showAuthorsBadge = true
+
+[list]
+showViews = true
+cardView = true
+showCards = true
+layoutBackgroundHeaderSpace = true
+showHero = true
+heroStyle = "basic"
+
+[verification]
+google = "Tpd548gKcH4khlvrwUJiDWt6JFmIXwdw0PvQufl5oEk"
