@@ -1,0 +1,5 @@
+[[imports]]
+path = "github.com/nunocoracao/blowfish/v2"
+
+baseURL = "https://joush007.github.io/"
+languageCode = "en"

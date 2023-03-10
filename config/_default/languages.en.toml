@@ -1,0 +1,10 @@
+title = "Josh's Blog"
+
+[author]
+name = "Josh"
+image = "img/author.png"
+headline = "Lockheed Martin CyberQuest Australia 2023 Champion"
+bio = "I'm a Year 12 student studying Data Science and Web Dev, looking into a future in Cyber Security"
+links = [
+    { github = "https://github.com/joush007"}
+]
