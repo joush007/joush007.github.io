@@ -1,8 +1,0 @@
-{
-    "type": "module",
-    "scripts": {
-        "web": "node webDev/web.js",
-        "data": "node dataScience/data.js",
-        "build": "npm run web & npm run data"
-    }
-}

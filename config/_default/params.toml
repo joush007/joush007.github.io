@@ -14,12 +14,10 @@ cardViewScreenWidth = true
 
 [article]
 showDate = true
-showViews = true
 showTaxonomies = true
 showAuthorsBadge = true
 
 [list]
-showViews = true
 cardView = true
 showCards = true
 layoutBackgroundHeaderSpace = true
