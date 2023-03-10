@@ -16,6 +16,8 @@ cardViewScreenWidth = true
 showDate = true
 showTaxonomies = true
 showAuthorsBadge = true
+showHero = true
+heroStyle = "thumbAndBackground"
 
 [list]
 cardView = true
