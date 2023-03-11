@@ -1,6 +1,6 @@
 ---
 title: About me
-date: 2023
+showDate: false
 ---
 
 Hey I'm Josh, a year 12 student studying web development and data science. I've got a few skills up my sleeve and a few things I've learnt through I.T. and also some other things outside of school I've participated in such as the Lockheed Martin competitions and PeCan+.
