@@ -1,5 +1,5 @@
 ---
-title: The Monte Carlo AI Method
+title: The Monte Carlo Method
 date: 2023-02-27
 topics: ["Data Science", "Machine Learning", "AI", "Overflow Tag"]
 ---
