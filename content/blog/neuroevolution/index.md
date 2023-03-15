@@ -4,7 +4,10 @@ date: 2023-03-06
 topics: ["Data Science", "Machine Learning", "Neuroevolution"]
 ---
 
-Last week I looked into neuroevolution in machine learning and theory behind how it works and how it can be used in preperation for the exam. Although I have looked into a lot of information behind how it works, I don't have enough time or space to go through all that I have studied, so I will leave a link to the notes I have take for it [here]({{file  name="Neuroevolution_Notes.pdf"}}). I will however go through the basics of what it is and how it works.
+Last week I looked into neuroevolution in machine learning and theory behind how it works and how it can be used in preperation for the exam. Although I have looked into a lot of information behind how it works, I don't have enough time or space to go through all that I have studied, so I will leave a link to the notes I have taken below. I will however go through the basics of what it is and how it works.
+{{< button href="./Neuroevolution_notes.pdf" target="_self" >}}
+Download Notes
+{{< /button >}}
 
 ## What is Neuroevolution?
 To put it simply, neuroevolution is a machine learning technique used to generate increasingly better topologies, weights & hyperparameters (Parameter whose value is used to control the learning process) for a neural network (NN) by means of evolutionary algorithms (such as a genetic algorithm). One of the most simple ways of describing it, is if you had a neural network and genetic algorithm and combined the two, then you'd have neuroevolution.
