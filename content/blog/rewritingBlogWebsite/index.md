@@ -1,7 +1,7 @@
 ---
 title: Rewriting my Blog Website
 date: 2023-03-14
-topics: ["Web Development", "Blog", "Overflow Tag"]
+topics: ["Web Development", "Blog", "Markdown", "Overflow Tag"]
 ---
 
 Last week I decided it's been enough of the old blog website design, so I rewrote it using the [Blowfish](https://github.com/nunocoracao/blowfish) theme, which is a [Hugo](https://gohugo.io/) theme created by [Nuno Coração](https://github.com/nunocoracao).
