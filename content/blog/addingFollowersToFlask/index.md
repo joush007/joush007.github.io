@@ -1,6 +1,6 @@
 ---
-title: Adding Followers to our Flask App
-date: 2021-03-27
+title: "Adding Followers to our Flask App"
+date: 2023-03-27
 topics: ["Web Development" "Flask", "Python"]
 ---
 
