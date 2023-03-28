@@ -2,13 +2,13 @@ colorScheme = "blowfish"
 defaultAppearance = "dark"
 enableSearch = true
 enableCodeCopy = true
-defaultBackgroundImage = "img/background.png"
+defaultBackgroundImage = "img/small_walrus_portal.jpg"
 
 [homepage]
-layout = "hero"
+layout = "background"
 showRecent = true
 showRecentItems = 4
-homepageImage = "img/background.png"
+homepageImage = "img/portal_to_walrus_big_walrus.jpg"
 layoutBackgroundBlur = true
 cardViewScreenWidth = true
 
