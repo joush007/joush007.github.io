@@ -1,7 +1,7 @@
 ---
-title: "Adding Followers to our Flask App"
+title: Adding Followers to our Flask App
 date: 2023-03-27
-topics: ["Web Development" "Flask", "Python"]
+topics: ["Web Development", "Flask", "Python"]
 ---
 
 Following on from last week, we now have a method of error handling in place. This week we're going to be adding followers to our app. This will allow users to follow other users and be saved in a database, which is a bit more confusing than you'd expect. This is due to the fact that you'd normally expect connections with many to many relations in a database to be between two seperate tables, such as with a student-teacher relationship structured as:
