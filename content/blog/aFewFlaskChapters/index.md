@@ -1,7 +1,7 @@
 ---
 title: Covering a few chapters of the Flask Mega-Tutorial
 date: 2023-02-27
-topics: ["Web Development", "Flask", "Python", "HTML", "CSS"]
+topics: ["Web Development", "Flask", "Python", "HTML"]
 ---
 ## Introduction
 Alright, so a lot has happened over the past 2 weeks in web dev and I have gone through a few more chapters of [the Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world). This included the use of forms, creating a database, a login page and creating a user profile page.

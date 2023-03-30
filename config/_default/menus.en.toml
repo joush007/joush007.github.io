@@ -4,6 +4,16 @@
   weight = 10
 
 [[main]]
+  name = "Data Science"
+  pageRef = "topics/data-science"
+  weight = 15
+
+[[main]]
+  name = "Web Dev"
+  pageRef = "topics/web-development"
+  weight = 16
+
+[[main]]
   name = "Topics"
   pageRef = "topics"
   weight = 20
@@ -18,3 +28,7 @@
   name = "About"
   url = "/about"
   weight = 10
+
+[[footer]]
+  name = "GitHub Repo"
+  url = "https://github.com/joush007/joush007.github.io"
