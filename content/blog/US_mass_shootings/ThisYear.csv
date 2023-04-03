@@ -1,0 +1,131 @@
+"Incident ID","Incident Date",State,"City Or County",Address,"# Killed","# Injured",Operations
+2555459,"March 27, 2023",Tennessee,Nashville,"33 Burton Hills Blvd",7,0,N/A
+2555326,"March 27, 2023",Wisconsin,Milwaukee,"7225 N 76th St",0,5,N/A
+2554779,"March 26, 2023",Pennsylvania,Philadelphia,"1900 block of N 19th St",2,2,N/A
+2555309,"March 26, 2023",Minnesota,Minneapolis,"5601 Brooklyn Blvd",0,6,N/A
+2555301,"March 26, 2023",Arkansas,"Little Rock","3002 Washington St",2,5,N/A
+2555123,"March 26, 2023",Louisiana,Minden,"801 Harris St",0,4,N/A
+2553829,"March 25, 2023",Louisiana,Shreveport,"200 block of Texas St",1,5,N/A
+2554912,"March 25, 2023","New York",Hempstead,"Spencer Pl and Jerusalem Ave",0,4,N/A
+2555579,"March 25, 2023","North Carolina",Williamston,"W Pine St",0,5,N/A
+2553878,"March 25, 2023",Illinois,Macomb,"533 N Johnson St",1,10,N/A
+2553843,"March 24, 2023",Louisiana,Shreveport,"1800 block of Logan St",0,8,N/A
+2552552,"March 23, 2023",Maryland,Baltimore,"2801 Edmondson Ave",1,5,N/A
+2551596,"March 21, 2023","New Jersey",Trenton,"45 N Stockton St",0,4,N/A
+2551678,"March 21, 2023","South Carolina",Sumter,"190 Whitetail Cir",5,0,N/A
+2550749,"March 20, 2023",Wisconsin,Milwaukee,"N 14th St and W Concordia Ave",1,5,N/A
+2548773,"March 18, 2023",Ohio,Columbus,"1570 S. High St",2,4,N/A
+2549452,"March 18, 2023",Illinois,Chicago,"2425 E 72nd St",0,4,N/A
+2549324,"March 18, 2023",Texas,Dallas,"Gannon Ln and S Westmoreland Rd",0,4,N/A
+2546495,"March 15, 2023",Oregon,Portland,"7900 NE 82nd Ave",2,2,N/A
+2545871,"March 14, 2023",Alabama,Birmingham,"8400 block of 8th Ave S",4,0,N/A
+2545631,"March 13, 2023",Texas,Lubbock,"9103 Ave P",1,3,N/A
+2544817,"March 12, 2023",Texas,Dallas,"3626 Villaverde Ave",4,0,N/A
+2543748,"March 11, 2023","New York",Brooklyn,"E 45th St and Snyder Ave",1,3,N/A
+2544920,"March 11, 2023",Washington,Vancouver,"6701 E Mill Plain Blvd",1,3,N/A
+2543201,"March 10, 2023",Florida,Hialeah,"14811 NW 87th Ct",5,0,N/A
+2541580,"March 7, 2023",Tennessee,Memphis,"2100 block of Labelle St",0,4,N/A
+2541937,"March 7, 2023",Arkansas,"Pine Bluff","2611 W 34th St",2,2,N/A
+2539814,"March 6, 2023",California,Sacramento,"2200 block of Rogue River Dr",3,1,N/A
+2540078,"March 6, 2023",Tennessee,Memphis,"176 Hillview Ave",3,1,N/A
+2539582,"March 5, 2023",Illinois,Bolingbrook,"123 Lee Lane",3,1,N/A
+2539165,"March 5, 2023",Maryland,"Capitol Heights","1200 block of Elfin Ave",0,4,N/A
+2539515,"March 5, 2023",Florida,"Lake City","NW Alma Ave",0,4,N/A
+2539065,"March 5, 2023",Louisiana,Shreveport,"4725 Greenwood Rd",0,4,N/A
+2539082,"March 4, 2023",California,"Los Angeles","E 76th Place and S Main St",0,4,N/A
+2539196,"March 4, 2023",Georgia,Douglasville,"3377 Talkeetna Rd",2,7,N/A
+2539531,"March 4, 2023",Missouri,"Cape Girardeau","15 N Main St",0,5,N/A
+2538963,"March 4, 2023",California,"San Pedro","Paseo Del Mar and Graysby Ave",0,5,N/A
+2536665,"March 1, 2023",Florida,Cocoa,"4075 Alan Shepard Ave",4,0,N/A
+2534995,"February 27, 2023",Ohio,"New Richmond","1195 Riebel Ridge",4,1,N/A
+2534810,"February 27, 2023",Tennessee,Memphis,"W Essex Ave and Arkansas St",2,3,N/A
+2534613,"February 26, 2023",Florida,"Pompano Beach","401 NW 27th Ave",2,2,N/A
+2534097,"February 26, 2023",Michigan,Detroit,"10300 block of Greensboro St",2,2,N/A
+2534174,"February 26, 2023",Tennessee,Memphis,"4675 S 3rd St",1,4,N/A
+2533625,"February 25, 2023",Minnesota,"Saint Paul","500 Dale St N",2,3,N/A
+2534393,"February 25, 2023",Illinois,"Machesney Park","1001 West Lane Rd",0,4,N/A
+2533920,"February 24, 2023",Louisiana,Abbeville,"1616 Veterans Memorial Dr",0,4,N/A
+2532658,"February 23, 2023",Pennsylvania,Philadelphia,"2003-05 N 31st St",0,7,N/A
+2531512,"February 22, 2023",Florida,Orlando,"6100 block of Hialeah St",3,2,N/A
+2531078,"February 21, 2023",Colorado,"Colorado Springs","3945 Palmer Park Blvd",0,5,N/A
+2529381,"February 19, 2023",Illinois,Chicago,"I-57 and W 111th St",3,3,N/A
+2528691,"February 19, 2023",Indiana,Indianapolis,"8005 42nd St",0,4,N/A
+2528713,"February 19, 2023",Tennessee,Memphis,"1482 E Shelby Dr",1,10,N/A
+2529243,"February 19, 2023",Louisiana,"New Orleans","St Charles Ave and Terpsichore St",1,4,N/A
+2528774,"February 18, 2023",Missouri,"Saint Louis","410 N Tucker Blvd",0,4,N/A
+2528239,"February 18, 2023","South Carolina",Loris,"3450 East SC 9 Business",0,4,N/A
+2528505,"February 18, 2023",Georgia,Columbus,"3048 Victory Dr",3,1,N/A
+2527517,"February 17, 2023",Mississippi,Coldwater,"3196 Arkabutla Dam Road",6,0,N/A
+2528066,"February 17, 2023",Georgia,Columbus,"4499 Warm Springs Rd Connector",0,9,N/A
+2527234,"February 15, 2023",Maryland,Baltimore,"1400 block of E Fayette St",0,4,N/A
+2526362,"February 15, 2023",Texas,"El Paso","8401 Gateway Blvd W",1,4,N/A
+2525382,"February 14, 2023",Pennsylvania,Pittsburgh,"1101 N Murtland St",0,4,N/A
+2525634,"February 14, 2023","New York",Buffalo,"Crossman Ave and Heminway St",0,5,N/A
+2525591,"February 13, 2023","New Jersey",Paterson,"50 block of 12th Ave",0,4,N/A
+2524577,"February 13, 2023",Michigan,"East Lansing","509 E Circle Dr",4,5,N/A
+2523928,"February 12, 2023",Mississippi,Louisville,"309 E John C Stennis Dr",1,5,N/A
+2522649,"February 10, 2023","New York",Brooklyn,"3222 Mermaid Ave",0,4,N/A
+2522557,"February 10, 2023","New York",Bronx,"631 E Tremont Ave",2,2,N/A
+2521084,"February 8, 2023","North Carolina",Laurinburg,"Marcellus St",0,4,N/A
+2521112,"February 8, 2023",Louisiana,"New Orleans","Bullard Ave and Chef Menteur Hwy",2,4,N/A
+2521423,"February 8, 2023","North Carolina","Elizabeth City","1000 block of Walker Ave",0,4,N/A
+2518860,"February 6, 2023",Texas,"Corpus Christi","2700 block of Persimmon St",1,4,N/A
+2518292,"February 5, 2023",California,Stockton,"1300 block of W Fremont St",1,3,N/A
+2518344,"February 5, 2023",Arizona,Tucson,"4000 block of E Agate Knoll Dr",1,3,N/A
+2518456,"February 5, 2023",Arkansas,Newport,"400 block of Clay St",1,4,N/A
+2518281,"February 5, 2023",Colorado,Peyton,"12252 Point Reyes Dr",2,3,N/A
+2517797,"February 4, 2023",Texas,Huntsville,"1505 19th St",2,2,N/A
+2516494,"February 1, 2023",California,"Los Angeles","711 E. 108 St",0,5,N/A
+2516309,"February 1, 2023",Texas,"Texas City","8601 Emmett F Lowry Expy",0,4,N/A
+2514902,"January 31, 2023","North Carolina",Durham,"4100 block of Sudbury Rd",2,2,N/A
+2514564,"January 30, 2023",Florida,Lakeland,"923 N Iowa Ave",0,11,N/A
+2514220,"January 30, 2023",Texas,Dallas,"5800 block of Bonnie View Rd",1,4,N/A
+2513512,"January 29, 2023",Ohio,Columbus,"1680 Karl Ct",1,3,N/A
+2513575,"January 29, 2023","North Carolina",Greensboro,"6400 W Market St",1,6,N/A
+2513517,"January 28, 2023","South Carolina",Andrews,"Birch Creek Rd",2,2,N/A
+2513496,"January 28, 2023",Texas,Austin,"12636 Research Blvd",2,3,N/A
+2513044,"January 28, 2023",California,"Beverly Hills","2799 Ellison Dr",3,2,N/A
+2513527,"January 28, 2023",Pennsylvania,Philadelphia,"Knorr St and Loretto Ave",0,4,N/A
+2512985,"January 27, 2023",California,"San Diego","62nd St and Akins Ave",1,3,N/A
+2512343,"January 26, 2023","New Jersey",Newark,"1079 Broad St",1,4,N/A
+2512617,"January 26, 2023",Pennsylvania,Lancaster,"525 N Franklin St",0,4,N/A
+2510365,"January 24, 2023","North Carolina","Red Springs","100 block of Samuel Williams Dr",3,1,N/A
+2509362,"January 23, 2023",Illinois,Chicago,"2909 E 78th St",2,3,N/A
+2510063,"January 23, 2023",California,Oakland,"5910 MacArthur Blvd",1,4,N/A
+2509663,"January 23, 2023",California,"Half Moon Bay","12761 San Mateo Rd",7,1,N/A
+2508370,"January 22, 2023",Louisiana,"Baton Rouge","4619 Bennington Ave",0,12,N/A
+2508683,"January 22, 2023",Mississippi,"Robinsonville (Tunica Resorts)","1010 Casino Center Dr",0,4,N/A
+2508522,"January 22, 2023",Louisiana,Shreveport,"1600 Sugar Ln",1,7,N/A
+2507836,"January 21, 2023",California,"Monterey Park","122 W Garvey Ave",12,9,N/A
+2504645,"January 17, 2023",Texas,Houston,"6729 Lockwood Dr",0,4,N/A
+2503245,"January 16, 2023",Florida,Sanford,"Rinehart Rd and Co Rd 46A",1,5,N/A
+2503345,"January 16, 2023",California,Goshen,"Harvest Ave and Rd 68",6,0,N/A
+2503649,"January 16, 2023",Florida,"Fort Pierce","Avenue M and N 13th St",1,7,N/A
+2503058,"January 15, 2023",Illinois,Rockford,"2311 23rd St",3,2,N/A
+2502680,"January 15, 2023",Texas,Houston,"5121 FM 1960 Rd W",1,4,N/A
+2503178,"January 15, 2023",Florida,Homestead,"700 block of SW Sixth St",1,3,N/A
+2503197,"January 15, 2023",Arizona,Phoenix,"S 46th Pl and E Broadway Rd",0,4,N/A
+2502550,"January 14, 2023",Missouri,"Saint Louis (Moline Acres)","Berwyn Dr and Lanier Dr",0,4,N/A
+2501869,"January 13, 2023",Ohio,Cleveland,"3719 Mack Ct",4,1,N/A
+2499119,"January 9, 2023",Minnesota,Minneapolis,"2218 E Lake St",0,4,N/A
+2499381,"January 9, 2023",Pennsylvania,Philadelphia,"3300 block of Guilford St",3,1,N/A
+2498792,"January 9, 2023",Colorado,Denver,"18th St and Blake St",0,4,N/A
+2498013,"January 8, 2023",Minnesota,Minneapolis,"930 Hennepin Ave",0,4,N/A
+2499425,"January 8, 2023",Georgia,Albany,"1021 S McKinley St",0,4,N/A
+2497948,"January 7, 2023",Alabama,Huntsville,"2817 Hwy 72 E",2,9,N/A
+2497502,"January 7, 2023","North Carolina","High Point","2734 Mossy Meadow Dr",5,0,N/A
+2496714,"January 6, 2023",Texas,Dallas,"8544 Lazy Acres Cir",3,2,N/A
+2497164,"January 6, 2023",California,"San Francisco","600 block of Valencia St",1,3,N/A
+2496431,"January 5, 2023",Louisiana,"New Orleans","St Andrew St and Rev John Raphael Jr Way",2,3,N/A
+2496391,"January 5, 2023",Florida,"Miami Gardens","17647 NW 27th Ave",0,10,N/A
+2495648,"January 4, 2023",Utah,"Cedar City (Enoch)","4923 N Albert Dr",8,0,N/A
+2494934,"January 4, 2023",Maryland,Baltimore,"4408 Edmondson Ave",1,4,N/A
+2495059,"January 4, 2023",Virginia,Dumfries,"17900 block of Milroy Dr",1,4,N/A
+2494254,"January 3, 2023","District of Columbia",Washington,"6200 block of Georgia Ave NW",1,3,N/A
+2494425,"January 3, 2023",Louisiana,"New Orleans","2600 block of S. Rocheblave St",0,5,N/A
+2492448,"January 1, 2023",Florida,Ocala,"1600 block of SW 5th St",2,4,N/A
+2492601,"January 1, 2023",Illinois,Chicago,"300 block of E 57th St",1,3,N/A
+2497601,"January 1, 2023",Florida,"Miami Gardens","NW 171st St and NW 30th Ave",0,9,N/A
+2492611,"January 1, 2023","North Carolina",Durham,"1000 N Miami Blvd",0,5,N/A
+2493102,"January 1, 2023",Pennsylvania,Allentown,"1140 E Clair St",0,4,N/A
+2492314,"January 1, 2023",Ohio,Columbus,"2830 Johnstown Rd",1,4,N/A
