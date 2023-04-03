@@ -100,3 +100,10 @@ The distribution is a bit different in the second graph, showing the victims of 
 
 ## Conclusion
 In conclusion, a lot of information can be extracted from this data, really highlighting the effect that these shootings can have and how much they can affect a community. We have noted that there were around 370 people shot in a 72 hour time period, that's just half of the amount of people that have been involved in a mass shooting this year, with around 700 people. In this case it's pretty safe to assume that whilst we look into the mass shootings, it's only showing a small amount of the overall casualties, as there is still a lot happening outside of mass shootings, those being just smaller shootings that there are a lot more of in a shorter time period, leading to an overall higher number of casualties.
+
+## Data
+If you'd like to have a play around with the data I have been playing around, have a look at these datasets (or download them from the link I provided earlier):
+
+* [Mass Shootings This Year](./ThisYear.csv)
+* [Shootings in the past 72 hours](./Last72Hours.csv)
+* [Mass Shootings All Time](./nassShootingsAllTime.csv)
