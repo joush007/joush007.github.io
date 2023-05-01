@@ -4,6 +4,10 @@ date: 2023-05-01
 topics: ["Web Dev", "W.I.N.S.T.O.N.", "Plan"]
 ---
 
+[Morgan's Blog](https://Morgan-Potter.github.io)
+
+[Sam's Blog](https://samsidebotham.com)
+
 # Context
 Hey there, so this will mostly be a quick post to give a plan as to what I'm going to be doing throughout the coming weeks and what I need to look into for the coming weeks in accordance with the project I'm doing with Sam and Morgan.
 
