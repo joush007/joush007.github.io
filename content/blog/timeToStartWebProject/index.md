@@ -45,3 +45,5 @@ This table will be placed in the future posts so that I can refer back to it and
 I'm looking forward to implementing this in the coming weeks, I'll keep you updated.
 
 **NOTE**: In the holidays I did work through up until chapter 15 of the Flask Mega-Tutorial, getting a fair understanding of how to use flask and different packages made for Falsk (As well as database integration).
+
+**NOTE 2**: For info on the Data Science side of the project see [here](https://joush007.github.io/blog/timeToStartDataProject)
