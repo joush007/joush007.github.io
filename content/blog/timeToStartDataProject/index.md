@@ -42,4 +42,4 @@ I'm looking forward to implementing this in the coming weeks, I'll keep you upda
 
 **NOTE**: There wasn't much data science work to do in the holidays, so I had a conversation with the boys on what each of us will need to do and what we actually want to do with W.I.N.S.T.O.N. so that we can start planning what each of us will start looking into.
 
-**NOTE 2**: For info on the Data Science side of the project see [here](https://joush007.github.io/blog/timeToStartWebProject)
+**NOTE 2**: For info on the Web Dev side of the project see [here](https://joush007.github.io/blog/timeToStartWebProject)
