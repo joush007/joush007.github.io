@@ -1,7 +1,7 @@
 ---
 title: Time to get started on W.I.N.S.T.O.N. (Web)
 date: 2023-05-01
-topics: ["Web Dev", "W.I.N.S.T.O.N.", "Plan"]
+topics: ["Web Develpoment", "WINSTON", "Plan"]
 ---
 
 [Morgan's Blog](https://Morgan-Potter.github.io)
@@ -50,4 +50,4 @@ I'm looking forward to implementing this in the coming weeks, I'll keep you upda
 
 **NOTE**: In the holidays I did work through up until chapter 15 of the Flask Mega-Tutorial, getting a fair understanding of how to use flask and different packages made for Falsk (As well as database integration).
 
-**NOTE 2**: For info on the Data Science side of the project see [here](https://joush007.github.io/blog/timeToStartDataProject)
+**NOTE 2**: For info on the Data Science side of the project see [here](https://joush007.github.io/timetostartdataproject)
