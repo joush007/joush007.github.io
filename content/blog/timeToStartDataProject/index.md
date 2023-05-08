@@ -2,6 +2,8 @@
 title: Time to get started on W.I.N.S.T.O.N. (Data)
 date: 2023-05-01
 topics: ["Data Science", "WINSTON", "Plan"]
+series: ["WINSTON"]
+series_order: 1
 ---
 
 [Morgan's Blog](https://Morgan-Potter.github.io)

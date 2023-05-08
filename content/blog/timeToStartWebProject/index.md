@@ -2,6 +2,8 @@
 title: Time to get started on W.I.N.S.T.O.N. (Web)
 date: 2023-05-01
 topics: ["Web Develpoment", "WINSTON", "Plan"]
+series: ["WINSTON"]
+series_order: 2
 ---
 
 [Morgan's Blog](https://Morgan-Potter.github.io)
