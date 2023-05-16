@@ -10,6 +10,8 @@ series_order: 4
 
 [Sam's Blog](https://samsidebotham.com)
 
+[GitHub Repository - Winston](https://github.com/joush007/WINSTON) - All parts of the project are linked through submodules
+
 # Web Dev Plan
 It's important to note, firstly, that W.I.N.S.T.O.N. is a large project, with a lot to do for each part. This is important as there was a lot of planning happening this week, in that we were looking into the ways that we were to go about implementing the first point, of setting up a connection between W.I.N.S.T.O.N. and a computer so that we can get a constant data stream that can be fed into the Data Science part of the project. In saying that, we haven't actually got a physical W.I.N.S.T.O.N. to work with at the moment, and so I should be looking into the different methods of getting a data stream without the physical robot. To do this (I shall be doing that this week, as last week I was mainly looking into the functionality of Bpy, as mentioned in the W.I.N.S.T.O.N. Data Science post) I will need to have a look at how to setup a connection over a localhost, which I've done previously, and can be easily implemented through Python if I were to use Sockets, or there might actually not be a use of the internet for transmitting data, as it would be a little bit less practical, especially if W.I.N.S.T.O.N. was being used outside of a controlled environment where there isn't internet. To do this, I could look into using Bluetooth or a similar technology, and that's what I'll have to look into this week.
 

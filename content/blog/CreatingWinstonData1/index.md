@@ -10,6 +10,8 @@ series_order: 3
 
 [Sam's Blog](https://samsidebotham.com)
 
+[GitHub Repository - Winston](https://github.com/joush007/WINSTON) - All parts of the project are linked through submodules
+
 # Blender Python Library
 Last week I figured out that I needed to use blender to create a scene that could be meshed and rendered (or attempted to). To do this I had a look around and found the bpy library made by blender for python integration. This was great to find and I got to installing it, but then I found an issue; it was only supported on python 3.7, therefore I'd need to either install 3.7 alongside 3.11 that I have now, or use a tool such as conda to create a virtual environment with python 3.7. I decided to use conda, because ultimately it would create less hastle, but this was starting to become painful in itself. My plan was that I'd be able to install bpy, then start messing around with it and get familiar with how it works, but instead I was met with the error on the compatibility of bpy with 3.7. On downloading and installing conda (I used miniconda, because it was lightweight which may have caused the issue), it wasn't being recognised in the command prompt, and where's the point in using something like conda if it won't be usable? So I have take to installing the full anaconda.
 
