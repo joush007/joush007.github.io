@@ -21,7 +21,7 @@ Over the past week I spent a good amount of time working on the ideation of my w
 # Layout of the website
 I settled on a mostly top-level structure, because there really wasn't much that was needed on the actual layout of the website. The main pages included the Home, Stream, Admin, Users, About and Posts page. The purpose of these are as follows:
 
-![Sitemap](sitemap.svg)
+![Sitemap](sitemap.png)
 
 * Home - This is the landing page for the website, and will be the first page that is seen when someone visits the website, giving a brief overview of what W.I.N.S.T.O.N. is, and what the website is for.
 
