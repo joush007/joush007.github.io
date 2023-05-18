@@ -1,7 +1,7 @@
 ---
 title: The Big O
 date: 2023-02-13
-topics: ["Data Science", "Big O", "Algorithms", "Overflow Tag"]
+topics: ["Data Science", "Big O", "Algorithms"]
 ---
 
 ## What is the Big O?

@@ -1,7 +1,7 @@
 ---
 title: The Big O, Θ & Ω
 date: 2023-02-20
-topics: ["Data Science", "Algorithms", "Big O", "Overflow Tag"]
+topics: ["Data Science", "Algorithms", "Big O"]
 ---
 
 So, last week we covered the Big O and how to calculate the Big O as well as it's uses. This week we're going to look at the Big Ω and Big Θ as well as it was meant to be covered but I had accidentally moved past the two and went to the work from the next week, so I looked at it this week.

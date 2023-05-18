@@ -1,7 +1,7 @@
 ---
 title: Intro to Flask & the MVC
 date: 2023-02-13
-topics: ["Web Development", "Flask", "MVC", "Overflow Tag"]
+topics: ["Web Development", "Flask", "MVC"]
 ---
 
 ## What is the MVC?
