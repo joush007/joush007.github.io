@@ -1,7 +1,7 @@
 ---
 title: "Creating W.I.N.S.T.O.N. Week 1 | Data Formatting Plans"
 date: 2023-05-08
-topics: ["Web Dev", "WINSTON"]
+topics: ["Web Development", "WINSTON"]
 series: ["WINSTON"]
 series_order: 4
 ---

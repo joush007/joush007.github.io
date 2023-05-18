@@ -1,7 +1,7 @@
 ---
 title: "Creating W.I.N.S.T.O.N. Week 2 | The start of Winstogram"
 date: 2023-05-16
-topics: ["Web Dev", "WINSTON"]
+topics: ["Web Development", "WINSTON"]
 series: ["WINSTON"]
 series_order: 6
 ---
