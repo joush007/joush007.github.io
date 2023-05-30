@@ -20,6 +20,8 @@ Last week was interesting as I've been on the last 2 weeks of the first version 
 
 The Ball Pivot Algorithm can be thought of as a ball rolling around the vertices of a point cloud. It will roll along the object until if falls between three points, where it would 'get stuck'. Where the ball falls between three points is where a new face will be created, this is continued for the rest of the object and the accuracy of the algorithm comes from a changing radius of the ball. If the radius is large, the algorithm may be more accurate (to an extent) as it will be able to find vertices, but also may pick up vertices it shouldn't connect to. With a smaller radius, you may miss points in the mesh, but will be more accurate in the faces that are created. I will continue to look into the implementation of the algorithm this week.
 
+If you'd like to read more about the algorithm before I implement it, you can read about it [here](http://mesh.brown.edu/taubin/pdfs/bernardini-etal-tvcg99.pdf)
+
 # ASCII Integration
 
 On the ASCII side of things, I was able to get working the process in which an object is rendered and then displayed in ASCII. Although it's not a perfect way of doing it and is slow to run in that you need two scenes and will have to continue switching between them to run each render, it still creates an ASCII version of the object in a 2d space from 3d as shown below.
