@@ -1,5 +1,5 @@
 ---
-title: "Creating W.I.N.S.T.O.N. Week 3 | ASCII Works. Creating a Mesh from a Point Cloud?"
+title: "Creating W.I.N.S.T.O.N. Week 4 | ASCII Works. Creating a Mesh from a Point Cloud?"
 date: 2023-05-22
 topics: ["Data Science", "WINSTON"]
 series: ["WINSTON"]
