@@ -9,3 +9,5 @@ So as you may know, PyCon is a big python conference that happens once a year ov
 
 # I know, I know
 I know that I'm not talking about much, but that's because I don't want to spoil the presentation too much. I can say, though, that the presentation was a massive success, and it was great to see other people's projects too. Overall we had a great time and it was a great experience to present at a conference like this, especially as Year 12 Students. I hope that we can present again next year as a part of the main conference, as I think the boys and I are going to apply, but we'll see what happens.
+
+# [PyCon Presentation](https://youtu.be/Z60fVOQJzpc?si=06jHY1Ajxz7pm9By&t=3937)
