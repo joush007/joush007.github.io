@@ -1,5 +1,5 @@
 ---
-title: "Creating W.I.N.S.T.O.N. Week 8 | Update Looks and Forgot Password"
+title: "Winston Wk 8 | Update Looks and Forgot Password"
 date: 2023-08-14
 topics: ["Web Development", "WINSTON"]
 series: ["WINSTON"]

@@ -1,5 +1,5 @@
 ---
-title: "Creating W.I.N.S.T.O.N. Week 5 | The BALL PIVOTING ALGORITHM"
+title: "Winston Wk 5 | The BALL PIVOTING ALGORITHM"
 date: 2023-06-07
 topics: ["Data Science", "WINSTON"]
 series: ["WINSTON"]

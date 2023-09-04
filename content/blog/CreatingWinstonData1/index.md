@@ -1,5 +1,5 @@
 ---
-title: "Creating W.I.N.S.T.O.N. Week 1 | Blender Python Library & issues with Conda"
+title: "Winston Wk 1 | Blender Python Library & issues with Conda"
 date: 2023-05-08
 topics: ["Data Science", "WINSTON"]
 series: ["WINSTON"]

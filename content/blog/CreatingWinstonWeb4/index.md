@@ -1,5 +1,5 @@
 ---
-title: "Creating W.I.N.S.T.O.N. Week 4 | Winstogram Lives! Admin also.."
+title: "Winston Wk 4 | Winstogram Lives! Admin also.."
 date: 2023-05-30
 topics: ["Web Development", "WINSTON"]
 series: ["WINSTON"]

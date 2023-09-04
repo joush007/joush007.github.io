@@ -1,5 +1,5 @@
 ---
-title: "Creating W.I.N.S.T.O.N. Week 9 | Comments and Testing"
+title: "Winston Wk 9 | Comments and Testing"
 date: 2023-08-21
 topics: ["Web Development", "WINSTON"]
 series: ["WINSTON"]

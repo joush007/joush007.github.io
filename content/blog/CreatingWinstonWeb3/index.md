@@ -1,5 +1,5 @@
 ---
-title: "Creating W.I.N.S.T.O.N. Week 3 | Database Setup"
+title: "Winston Wk 3 | Database Setup"
 date: 2023-05-22
 topics: ["Web Development", "WINSTON"]
 series: ["WINSTON"]

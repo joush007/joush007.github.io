@@ -1,5 +1,5 @@
 ---
-title: "Creating W.I.N.S.T.O.N. Week 5 | Update looks and collections!"
+title: "Winston Wk 5 | Update looks and collections!"
 date: 2023-06-07
 topics: ["Web Development", "WINSTON"]
 series: ["WINSTON"]

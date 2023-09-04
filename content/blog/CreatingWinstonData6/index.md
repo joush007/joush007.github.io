@@ -1,5 +1,5 @@
 ---
-title: "Creating W.I.N.S.T.O.N. Week 6 | Live Data Feed"
+title: "Winston Wk 6 | Live Data Feed"
 date: 2023-07-31
 topics: ["Data Science", "WINSTON"]
 series: ["WINSTON"]

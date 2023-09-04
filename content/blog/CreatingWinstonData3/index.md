@@ -1,5 +1,5 @@
 ---
-title: "Creating W.I.N.S.T.O.N. Week 3 | Methods of Data Visualisation"
+title: "Winston Wk 3 | Methods of Data Visualisation"
 date: 2023-05-22
 topics: ["Data Science", "WINSTON"]
 series: ["WINSTON"]

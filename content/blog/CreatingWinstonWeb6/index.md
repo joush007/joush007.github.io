@@ -1,5 +1,5 @@
 ---
-title: "Creating W.I.N.S.T.O.N. Week 6 | API Implementation"
+title: "Winston Wk 6 | API Implementation"
 date: 2023-07-31
 topics: ["Web Development", "WINSTON"]
 series: ["WINSTON"]
