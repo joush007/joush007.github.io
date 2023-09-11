@@ -18,7 +18,7 @@ series_order: 19
 
 Last week I worked on a few backend things and got a few of the heavily requested features added that needed to be done. On top of that I messed around with learning some more about HTML, CSS & JS to create an animated modal that appears on the click of a button. I managed to develop codeblocks in posts that have syntax highlighting and added a decorator called `@admin_required` that works similarly to `@login_required`.
 
-## Codeblocks
+# Codeblocks
 
 Implementing codeblocks with syntax highlighting may seem like a bit of a daunting task at first, but believe me, with the right tools and libraries, you'll get the hang of it right away. For reference, I am using `Showdown` as my parser of choice for md to html in this scenario. The library I used for this isn't too difficult to implement, but requires a little bit of setup. Firstly, you need to go to [prismjs.com](https://prismjs.com/download.html) and choose your preferences accordingly. Once you have decided on what features of prism you would like to use, you can download the JS and CSS files. If you're using flask or django, you might need to put those into a static folder for ease of reference throughout the web app. Once you have the files in the right locations, you can import them into your files. I chose to import them only into the files which needed them, and so the top import of my page looks like this:
 
@@ -59,7 +59,7 @@ def foo():
 
 With everything listed above, your syntax highlighting should be no issue. Libraries like bootstrap have this feature built in, but if you would like to use a different library that doesn't take it into account, you can use the above method to get syntax highliting working.
 
-### Recap
+## Recap
 
 -   `PrismJS` can be used to add syntax highlighting to codeblocks
 -   Download the files from [prismjs.com](https://prismjs.com/download.html)
@@ -67,7 +67,7 @@ With everything listed above, your syntax highlighting should be no issue. Libra
 -   Add the codeblock to your file
 -   Add the script to the page to render the codeblock with highlighting
 
-## @admin_required Decorator
+# @admin_required Decorator
 
 Flask login has a feature to only allow logged in users to access specific pages on a website by using the `@login_required` decorator on the function alongside the `@route` decorator. This will then check if you are logged in before allowing you to access the page. In Winstogram, I had to implement admin only access to a few pages, but I didn't want to add a bunch of if clauses, and so I decided to create a new decorator to check if you're an admin before allowing you to access the page. It works by taking the same approach as `@login_required` but changes the function to check if you're an admin instead of checking if you're logged in. The code for this decorator is as follows:
 
@@ -101,7 +101,7 @@ def admin_required(function):
 
 The function aims to improve the speed at which I am able to create new pages that require admin only access, and therefore instead of performing a check every time which would be 3 lines of code, I can create a decorator that will require a line of code to be added to the function, taking up the same amount of space as any other function using the `@login_required` decorator. This is due to the fact that it does an authentication check in this function, and so it can be used in place of the `@login_required` decorator. This will speed up the process of creating new pages that require admin only access, and will also make it easier to read the code as it will be more concise.
 
-## Modals & Animation
+# Modals & Animation
 
 For context, I am new to css animations but not necessarily with css or html. With this in mind, and the fact that I'm bad at front end and making things look nice, I decided to have a mess around with some css transitions and animations to attempt to create a modal that slides in from above the page.
 
