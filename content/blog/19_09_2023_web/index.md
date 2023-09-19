@@ -1,6 +1,6 @@
 ---
-title: "18/09/2023 - Transition & Editing"
-date: 2023-09-18
+title: "19/09/2023 - Transition & Editing"
+date: 2023-09-19
 topics: ["Web Development", "WINSTON"]
 series: ["WINSTON"]
 series_order: 22
