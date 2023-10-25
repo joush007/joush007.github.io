@@ -1,7 +1,7 @@
 ---
 title: "Winston Wk 10 | ML Hand Gesture Recognition"
 date: 2023-09-04
-topics: ["Data Science", "WINSTON"]
+tags: ["Data Science", "WINSTON"]
 series: ["WINSTON"]
 series_order: 18
 ---

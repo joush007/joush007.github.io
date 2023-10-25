@@ -1,7 +1,7 @@
 ---
 title: "Updating Images"
 date: 2023-10-24
-topics: ["Blog"]
+tags: ["Blog"]
 ---
 
 I started using this blog template earlier this year, testing out Hugo and seeing what I could accomplish with it. One of the first things that I checked out was the images for each page that could be added. On the first few posts that I made, I didn't know how to use them or implement them, nor did I have any experience in art at all, so I didn't make any images to use for the site by hand.

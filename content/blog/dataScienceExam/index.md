@@ -1,7 +1,7 @@
 ---
 title: Data Science Exam
 date: 2023-08-28
-topics: ["Data Science", "Exam"]
+tags: ["Data Science", "Exam"]
 ---
 
 ## The Exam...

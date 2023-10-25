@@ -1,7 +1,7 @@
 ---
 title: "Flask Pagination"
 date: 2023-04-03
-topics: ["Web Development", "Flask", "Python", "HTML"]
+tags: ["Web Development", "Flask", "Python", "HTML"]
 ---
 
 The web dev posts at the moment can all be followed through the [Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-ix-pagination), but I will also be writing about my experiences with them here, and my own version can be found [here](https://github.com/joush007/microblog-tutorial).

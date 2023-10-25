@@ -1,7 +1,7 @@
 ---
 title: "Winston Wk 11"
 date: 2023-09-11
-topics: ["Web Development", "WINSTON", "JavaScript"]
+tags: ["Web Development", "WINSTON", "JavaScript"]
 series: ["WINSTON"]
 series_order: 21
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Winston Wk 1 | Blender Python Library & issues with Conda"
 date: 2023-05-08
-topics: ["Data Science", "WINSTON"]
+tags: ["Data Science", "WINSTON"]
 series: ["WINSTON"]
 series_order: 3
 ---

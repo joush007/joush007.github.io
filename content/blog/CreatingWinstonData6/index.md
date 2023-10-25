@@ -1,7 +1,7 @@
 ---
 title: "Winston Wk 6 | Live Data Feed"
 date: 2023-07-31
-topics: ["Data Science", "WINSTON"]
+tags: ["Data Science", "WINSTON"]
 series: ["WINSTON"]
 series_order: 13
 ---

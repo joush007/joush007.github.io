@@ -1,7 +1,7 @@
 ---
 title: Web Dev Exam
 date: 2023-08-28
-topics: ["Web Development", "Exam"]
+tags: ["Web Development", "Exam"]
 ---
 
 ## The Exam...

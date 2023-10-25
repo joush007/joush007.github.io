@@ -1,7 +1,7 @@
 ---
 title: "Winston Wk 10 | First Neural Network"
 date: 2023-09-11
-topics: ["Data Science", "WINSTON"]
+tags: ["Data Science", "WINSTON"]
 series: ["WINSTON"]
 series_order: 20
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Winstogram 'Unable to edit' bug fix"
 date: 2023-10-24
-topics: ["Web Development","Python"]
+tags: ["Web Development","Python"]
 series: ["WINSTON"]
 series_order: 23
 ---

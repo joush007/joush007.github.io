@@ -1,7 +1,7 @@
 ---
 title: "Winston Wk 4 | Winstogram Lives! Admin also.."
 date: 2023-05-30
-topics: ["Web Development", "WINSTON", "HTML", "Python"]
+tags: ["Web Development", "WINSTON", "HTML", "Python"]
 series: ["WINSTON"]
 series_order: 10
 ---

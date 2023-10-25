@@ -1,7 +1,7 @@
 ---
 title: "19/09/2023 - Pentester Labs"
 date: 2023-09-19
-topics: ["Web Development", "WINSTON", "Cyber Security"]
+tags: ["Web Development", "WINSTON", "Cyber Security"]
 ---
 
 # Pentester Labs

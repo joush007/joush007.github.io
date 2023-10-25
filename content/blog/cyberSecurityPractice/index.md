@@ -1,7 +1,7 @@
 ---
 title: Cyber Security Practice
 date: 2023-02-20
-topics: ["Web Development", "Cyber Security", "CTF"]
+tags: ["Web Development", "Cyber Security", "CTF"]
 ---
 
 ## Introduction

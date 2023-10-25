@@ -1,7 +1,7 @@
 ---
 title: Exam on Neuroevolution
 date: 2023-03-14
-topics: ["Data Science", "Neuroevolution", "Exam", "Machine Learning"]
+tags: ["Data Science", "Neuroevolution", "Exam", "Machine Learning"]
 ---
 
 Last week I had an exam on the topic of Neuroevolution, which is a topic that, as stated in previous posts, I am very interested in. It was an hour long exam which talked about how useful machine learning as a whole is, which I took a positive approach to, talking about how ML is extremely useful in the modern day and age and how it can be used in specific situations. I talked about the fact that ML can be used in almost any field as long as you are able to train it for that field, and the main limitation of ML modes comes from the person who made and trained the model. This leads to the disproving of the idea that ML models are flawed in themselves, which was actually what the prompt was about.

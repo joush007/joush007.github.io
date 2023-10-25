@@ -1,7 +1,7 @@
 ---
 title: "PyCon Au 2023"
 date: 2023-08-21
-topics: ["WINSTON", "Python"]
+tags: ["WINSTON", "Python"]
 ---
 
 # PyCon Au 2023

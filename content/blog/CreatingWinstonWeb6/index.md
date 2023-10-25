@@ -1,7 +1,7 @@
 ---
 title: "Winston Wk 6 | API Implementation"
 date: 2023-07-31
-topics: ["Web Development", "WINSTON", "Python", "JavaScript"]
+tags: ["Web Development", "WINSTON", "Python", "JavaScript"]
 series: ["WINSTON"]
 series_order: 14
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Winston Wk 5 | The BALL PIVOTING ALGORITHM"
 date: 2023-06-07
-topics: ["Data Science", "WINSTON"]
+tags: ["Data Science", "WINSTON"]
 series: ["WINSTON"]
 series_order: 11
 ---

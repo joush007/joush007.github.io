@@ -1,7 +1,7 @@
 ---
 title: "Lockheed Martin CyberQuest"
 date: 2023-03-06
-topics: ["Web Development", "Cyber Security", "CTF"]
+tags: ["Web Development", "Cyber Security", "CTF"]
 ---
 
 Before you say anything, yes I know this is meant for my web dev blogs, but I feel this was quite important for what I've been doing in class and outside of class to develop a greater understanding of using my problem solving and programming skills for a good purpose, so here's the blog:
