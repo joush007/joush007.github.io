@@ -1,7 +1,7 @@
 ---
 title: "Winston Wk 2 | The start of Winstogram"
 date: 2023-05-16
-topics: ["Web Development", "WINSTON"]
+topics: ["Web Development", "WINSTON", "HTML"]
 series: ["WINSTON"]
 series_order: 6
 ---

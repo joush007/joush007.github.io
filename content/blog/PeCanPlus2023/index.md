@@ -1,7 +1,7 @@
 ---
 title: "PeCan+ 2023"
 date: 2023-08-15
-topics: ["Data Science", "WINSTON"]
+topics: ["Cyber Security", "CTF"]
 ---
 
 # PeCan+ 2023

@@ -1,7 +1,7 @@
 ---
 title: "Winston Wk 5 | Update looks and collections!"
 date: 2023-06-07
-topics: ["Web Development", "WINSTON"]
+topics: ["Web Development", "WINSTON", "HTML", "Python"]
 series: ["WINSTON"]
 series_order: 12
 ---

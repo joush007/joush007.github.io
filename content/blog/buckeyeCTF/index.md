@@ -1,7 +1,7 @@
 ---
 title: "Buckeye CTF"
 date: 2023-10-13
-topics: ["Cyber Security"]
+topics: ["Cyber Security", "CTF"]
 ---
 
 [Signal Savants](https://ctftime.org/team/270755)

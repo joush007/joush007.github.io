@@ -1,7 +1,7 @@
 ---
 title: "Either I'm going crazy or there's been a lot of mass shootings in the U.S."
 date: 2023-04-03
-topics: ["Data Science", "Python", "Pandas", "Matplotlib"]
+topics: ["Data Science", "Python"]
 ---
 
 ## Introduction

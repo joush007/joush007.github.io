@@ -1,7 +1,7 @@
 ---
 title: "Winston Wk 3 | Database Setup"
 date: 2023-05-22
-topics: ["Web Development", "WINSTON"]
+topics: ["Web Development", "WINSTON", "Python"]
 series: ["WINSTON"]
 series_order: 8
 ---

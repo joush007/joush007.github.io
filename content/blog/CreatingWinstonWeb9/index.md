@@ -1,7 +1,7 @@
 ---
 title: "Winston Wk 9 | Comments and Testing"
 date: 2023-08-21
-topics: ["Web Development", "WINSTON"]
+topics: ["Web Development", "WINSTON", "Python", "JavaScript", "HTML", "CSS"]
 series: ["WINSTON"]
 series_order: 17
 ---

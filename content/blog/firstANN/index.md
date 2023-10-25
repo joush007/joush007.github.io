@@ -1,7 +1,7 @@
 ---
 title: "First Artificial Neural Network (ANN)"
 date: 2023-10-16
-topics: ["Data Science","Machine Learning"]
+topics: ["Data Science","Machine Learning", "Python"]
 ---
 
 [ANN Implementation](https://github.com/joush007/artificial-neural-network)

@@ -1,7 +1,7 @@
 ---
 title: "Winston Wk 7 | API & Inifinite Scroll"
 date: 2023-08-07
-topics: ["Web Development", "WINSTON"]
+topics: ["Web Development", "WINSTON", "Python", "JavaScript", "HTML"]
 series: ["WINSTON"]
 series_order: 15
 ---
@@ -22,22 +22,22 @@ I discussed last time that I needed to implement an API and showed my first impl
 
 ```py
 response = {
-        'id': post.id,
-        'header': post.header,
-        'body': post.body,
-        'timestamp': post.timestamp,
-        'username': post.author.username,
-        'user_id': post.user_id,
-        'comments': {
-            comment.id: {
-                'id': comment.id,
-                'body': comment.body,
-                'timestamp': comment.timestamp,
-                'user_id': comment.user_id,
-                'post_id': comment.post_id,
-            } for comment in post.comments.all()
-        },
-    }
+    'id': post.id,
+    'header': post.header,
+    'body': post.body,
+    'timestamp': post.timestamp,
+    'username': post.author.username,
+    'user_id': post.user_id,
+    'comments': {
+        comment.id: {
+            'id': comment.id,
+            'body': comment.body,
+            'timestamp': comment.timestamp,
+            'user_id': comment.user_id,
+            'post_id': comment.post_id,
+        } for comment in post.comments.all()
+    },
+}
 ```
 
 This will, in theory, make it a lot easiier to deal with the data if you are requesting it from other sources, such as other programs that want to use the data. This isn't too difficult to implements, but the functions have to be changed from what we defined last week. We previously had this function:
