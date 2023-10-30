@@ -1,7 +1,7 @@
 ---
 title: "Presentation preparation"
 date: 2023-10-30
-topics: ["Data Science"]
+tags: ["Data Science"]
 ---
 
 Last week we were looking into preparations for the presentations we will be giving on our projects next week. The main point of this was to do a short presentation on the project we have been doing to get a feel for how we need to present in our final presentation. We talked for about 5-10 minutes each about our projects and got some minor feedback about how we could adapt our presentations to better fit the format, and so that we could get a better understanding of how it will feel to present in front of people (although it was not very long).

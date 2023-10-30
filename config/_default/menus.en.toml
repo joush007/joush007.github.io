@@ -5,17 +5,17 @@
 
 [[main]]
   name = "Data Science"
-  pageRef = "topics/data-science"
+  pageRef = "tags/data-science"
   weight = 15
 
 [[main]]
   name = "Web Dev"
-  pageRef = "topics/web-development"
+  pageRef = "tags/web-development"
   weight = 16
 
 [[main]]
   name = "Topics"
-  pageRef = "topics"
+  pageRef = "tags"
   weight = 20
 
 [[main]]
