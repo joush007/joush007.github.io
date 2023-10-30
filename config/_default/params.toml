@@ -11,13 +11,15 @@ showRecentItems = 4
 homepageImage = "img/portal_to_walrus_big_walrus.jpg"
 layoutBackgroundBlur = true
 cardViewScreenWidth = true
+showMoreLink = true
+showMoreLinkDest = "/blog"
 
 [article]
 showDate = true
 showTaxonomies = true
 showAuthorsBadge = true
 showHero = true
-heroStyle = "thumbAndBackground"
+heroStyle = "background"
 
 [list]
 cardView = true

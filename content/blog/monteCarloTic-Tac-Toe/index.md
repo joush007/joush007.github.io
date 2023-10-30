@@ -1,7 +1,7 @@
 ---
 title: "Monte Carlo Tic-Tac-Toe Implementation"
 date: 2023-03-21
-topics: ["Data Science", "Machine Learning", "Python"]
+tags: ["Data Science", "Machine Learning", "Python"]
 ---
 
 ## Introduction

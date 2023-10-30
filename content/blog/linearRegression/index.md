@@ -1,7 +1,7 @@
 ---
 title: "Linear Regression"
 date: 2023-03-27
-topics: ["Data Science", "Machine Learning", "Algorithms", "Python"]
+tags: ["Data Science", "Machine Learning", "Algorithms", "Python"]
 --- 
 
 ## Linear Regression - What is it?

@@ -1,7 +1,7 @@
 ---
 title: "PeCan+ Challenge Coins"
 date: 2023-08-07
-topics: ["Data Science", "Cyber Security"]
+tags: ["Data Science", "Cyber Security"]
 ---
 
 Firstly, I'd like to say that this post will be shorter than usual, as I will be explaining some of the ways that we solved the challenge coins, but will not be as much of an explanation as to the actual PeCan+ challenges and solution, which can instead be found [here](https://github.com/ECUComputingAndSecurity/PECANCTF-2023-Public)!

@@ -1,7 +1,7 @@
 ---
 title: Time to get started on W.I.N.S.T.O.N. (Web)
 date: 2023-05-01
-topics: ["Web Development", "WINSTON", "Plan"]
+tags: ["Web Development", "WINSTON", "Plan"]
 series: ["WINSTON"]
 series_order: 2
 ---

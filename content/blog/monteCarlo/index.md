@@ -1,7 +1,7 @@
 ---
 title: The Monte Carlo Method
 date: 2023-02-27
-topics: ["Data Science", "Machine Learning", "AI"]
+tags: ["Data Science", "Machine Learning", "AI"]
 ---
 
 ## What is the Monte Carlo Method?

@@ -1,7 +1,7 @@
 ---
 title: "Winston Wk 8 | Update Looks and Forgot Password"
 date: 2023-08-14
-topics: ["Web Development", "WINSTON", "Python", "HTML", "JavaScript", "CSS"]
+tags: ["Web Development", "WINSTON", "Python", "HTML", "JavaScript", "CSS"]
 series: ["WINSTON"]
 series_order: 16
 ---

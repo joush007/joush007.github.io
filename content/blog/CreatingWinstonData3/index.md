@@ -1,7 +1,7 @@
 ---
 title: "Winston Wk 3 | Methods of Data Visualisation"
 date: 2023-05-22
-topics: ["Data Science", "WINSTON"]
+tags: ["Data Science", "WINSTON"]
 series: ["WINSTON"]
 series_order: 7
 ---

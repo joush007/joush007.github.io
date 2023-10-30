@@ -1,7 +1,7 @@
 ---
 title: "Winston Wk 2 | Blender Python Library, Creating Objects and Meshes"
 date: 2023-05-16
-topics: ["Data Science", "WINSTON"]
+tags: ["Data Science", "WINSTON"]
 series: ["WINSTON"]
 series_order: 5
 ---

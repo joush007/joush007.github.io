@@ -1,7 +1,7 @@
 ---
 title: "Winston Wk 1 | Data Formatting Plans"
 date: 2023-05-08
-topics: ["Web Development", "WINSTON"]
+tags: ["Web Development", "WINSTON"]
 series: ["WINSTON"]
 series_order: 4
 ---

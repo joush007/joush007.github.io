@@ -1,7 +1,7 @@
 ---
 title: "Winston Wk 4 | ASCII Works. Creating a Mesh from a Point Cloud?"
 date: 2023-05-22
-topics: ["Data Science", "WINSTON"]
+tags: ["Data Science", "WINSTON"]
 series: ["WINSTON"]
 series_order: 9
 ---

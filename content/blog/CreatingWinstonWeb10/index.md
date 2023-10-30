@@ -1,7 +1,7 @@
 ---
 title: "Winston Wk 10 | Codeblocks, Decorators, and More!"
 date: 2023-09-04
-topics: ["Web Development", "WINSTON", "HTML", "JavaScript", "CSS"]
+tags: ["Web Development", "WINSTON", "HTML", "JavaScript", "CSS"]
 series: ["WINSTON"]
 series_order: 19
 ---

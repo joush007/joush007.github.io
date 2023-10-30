@@ -1,7 +1,7 @@
 ---
 title: ""
 date: yyyy-mm-dd
-topics: ["",""]
+tags: ["",""]
 ---
 
 # Overview

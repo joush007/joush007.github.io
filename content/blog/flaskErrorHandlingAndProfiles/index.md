@@ -1,7 +1,7 @@
 ---
 title: "Error Handling and Profiles in Flask"
 date: 2023-03-21
-topics: ["Web Development", "Flask", "Python", "HTML"]
+tags: ["Web Development", "Flask", "Python", "HTML"]
 ---
 
 ## Introduction

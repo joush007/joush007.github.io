@@ -1,7 +1,7 @@
 ---
 title: "Winston Wk 7 | API & Inifinite Scroll"
 date: 2023-08-07
-topics: ["Web Development", "WINSTON", "Python", "JavaScript", "HTML"]
+tags: ["Web Development", "WINSTON", "Python", "JavaScript", "HTML"]
 series: ["WINSTON"]
 series_order: 15
 ---
